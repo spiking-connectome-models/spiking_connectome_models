@@ -92,7 +92,7 @@ ccn_s_connectome_revisions/
 |-- run_posthoc_ablation.py       # C1: Post-hoc ablations (gap junctions, APL disabled at eval)
 |-- run_std_ablation.py           # STD: Short-term depression ablation (retrained + post-hoc)
 |-- run_odor_mixtures.py          # C2: Odor mixture KC coding analysis (post-hoc)
-|-- run_honegger_metric.py     # C2: Honegger-style per-KC sub-additivity metric
+|-- run_honegger_metric.py        # C2: Honegger-style per-KC sub-additivity metric
 |-- run_teacher_consistency.py    # C5: Teacher/student parameter consistency analysis
 |-- run_task_complexity.py        # C6: Task complexity / KC threshold scaling
 |
