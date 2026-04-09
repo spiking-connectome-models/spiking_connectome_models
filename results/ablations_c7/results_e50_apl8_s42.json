@@ -1,0 +1,37 @@
+{
+  "label": "e50_apl8_s42",
+  "seed": 42,
+  "loss": "CE + 50.0*all_energy [apl_boost=8.0]",
+  "energy_weight": 50.0,
+  "apl_boost": 8.0,
+  "accuracy": 0.6785714285714286,
+  "centroid_accuracy": 0.65,
+  "per_type_sparsity": {
+    "orn": 0.515101412932078,
+    "ln": 0.23081704477469125,
+    "pn": 0.14011059370305803,
+    "kc": 0.30848122305340236
+  },
+  "decorrelation": {
+    "al": 50.32078335600573,
+    "mb": -30.486809205755506,
+    "total": 46.75778181826404
+  },
+  "mancini": {
+    "ratio": 2.465040650406504,
+    "passes": "True",
+    "baseline": 75.8,
+    "boosted": 30.75
+  },
+  "concentration_invariance": {
+    "or_range": 1.7647507212436178,
+    "pn_range": 1.1910795068112736,
+    "kc_range": 1.1468132088152914,
+    "sublinear_pn": true,
+    "flat_kc": true,
+    "robust_class": true,
+    "odor_identity": "PARTIAL"
+  },
+  "g_soma_nS": 11.991622680684857,
+  "apl_gain": 10.420918464660645
+}

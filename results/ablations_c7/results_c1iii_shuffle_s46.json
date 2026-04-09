@@ -1,0 +1,37 @@
+{
+  "label": "c1iii_shuffle_s46",
+  "seed": 46,
+  "loss": "CE + KC_sp [shuffle]",
+  "energy_weight": 0.0,
+  "apl_boost": 4.0,
+  "accuracy": 0.5857142857142857,
+  "centroid_accuracy": 0.5964285714285714,
+  "per_type_sparsity": {
+    "orn": 0.6930665771166483,
+    "ln": 0.3503086434470283,
+    "pn": 0.18110211193561554,
+    "kc": 0.11312049875656764
+  },
+  "decorrelation": {
+    "al": 7.531687609901616,
+    "mb": 40.06110798577029,
+    "total": 45.16622996335447
+  },
+  "mancini": {
+    "ratio": 2.0780730897009967,
+    "passes": "True",
+    "baseline": 312.75,
+    "boosted": 150.5
+  },
+  "concentration_invariance": {
+    "or_range": 1.7421340352298036,
+    "pn_range": 1.2065053367765595,
+    "kc_range": 1.0674413733988872,
+    "sublinear_pn": true,
+    "flat_kc": true,
+    "robust_class": true,
+    "odor_identity": "PARTIAL"
+  },
+  "g_soma_nS": 14.480917155176208,
+  "apl_gain": 0.3471783697605133
+}

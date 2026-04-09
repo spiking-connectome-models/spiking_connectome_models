@@ -1,0 +1,7707 @@
+{
+  "summary": {
+    "seed": 46,
+    "n_individual_odors": 28,
+    "n_2odor_mixtures": 378,
+    "n_3odor_mixtures": 50,
+    "pair_sim_to_components_mean": 0.8044389993267715,
+    "pair_sim_to_components_std": 0.05993881295390766,
+    "pair_sim_to_linear_pred_mean": 0.9404898009918354,
+    "pair_sim_to_linear_pred_std": 0.027010483376342802,
+    "pair_suppression_mean": 1.2526270340695929,
+    "pair_suppression_std": 0.1043012157774518,
+    "triplet_suppression_mean": 1.4217174708252092,
+    "triplet_suppression_std": 0.10193211889928583,
+    "triplet_sim_to_linear_mean": 0.8916736268997192,
+    "triplet_sim_to_linear_std": 0.03836718134542571,
+    "individual_svm_accuracy": 0.6321428571428571,
+    "mixture_vs_individual_svm": 0.7666666666666666,
+    "inter_mixture_svm_accuracy": 0.43500000000000005
+  },
+  "pair_results": [
+    {
+      "odors": [
+        0,
+        1
+      ],
+      "odor_names": [
+        "sfr",
+        "propanoic acid"
+      ],
+      "sim_to_comp1": 0.8413914442062378,
+      "sim_to_comp2": 0.8161348104476929,
+      "sim_to_linear_pred": 0.8889814615249634,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3541666567325592
+      ],
+      "suppression_ratio": 1.1775700987056932
+    },
+    {
+      "odors": [
+        0,
+        2
+      ],
+      "odor_names": [
+        "sfr",
+        "geranyl acetate"
+      ],
+      "sim_to_comp1": 0.9169245958328247,
+      "sim_to_comp2": 0.9422461986541748,
+      "sim_to_linear_pred": 0.9570732116699219,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3958333432674408
+      ],
+      "suppression_ratio": 1.0442477318196648
+    },
+    {
+      "odors": [
+        0,
+        3
+      ],
+      "odor_names": [
+        "sfr",
+        "(1R)-(-)-fenchone"
+      ],
+      "sim_to_comp1": 0.8802696466445923,
+      "sim_to_comp2": 0.8785189986228943,
+      "sim_to_linear_pred": 0.915058434009552,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.1376146651731076
+    },
+    {
+      "odors": [
+        0,
+        4
+      ],
+      "odor_names": [
+        "sfr",
+        "E2-hexenal"
+      ],
+      "sim_to_comp1": 0.6230259537696838,
+      "sim_to_comp2": 0.938636839389801,
+      "sim_to_linear_pred": 0.9242948293685913,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3958333432674408
+      ],
+      "suppression_ratio": 1.0619468549300748
+    },
+    {
+      "odors": [
+        0,
+        5
+      ],
+      "odor_names": [
+        "sfr",
+        "2-heptanone"
+      ],
+      "sim_to_comp1": 0.6461726427078247,
+      "sim_to_comp2": 0.9432553052902222,
+      "sim_to_linear_pred": 0.927478015422821,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2830188434800458
+    },
+    {
+      "odors": [
+        0,
+        6
+      ],
+      "odor_names": [
+        "sfr",
+        "2,3-butanedione"
+      ],
+      "sim_to_comp1": 0.8323097229003906,
+      "sim_to_comp2": 0.8879157304763794,
+      "sim_to_linear_pred": 0.9464461207389832,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.333333362232555
+    },
+    {
+      "odors": [
+        0,
+        7
+      ],
+      "odor_names": [
+        "sfr",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.7642122507095337,
+      "sim_to_comp2": 0.8941553235054016,
+      "sim_to_linear_pred": 0.935923159122467,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1531531468835632
+    },
+    {
+      "odors": [
+        0,
+        8
+      ],
+      "odor_names": [
+        "sfr",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.8782191872596741,
+      "sim_to_comp2": 0.8953708410263062,
+      "sim_to_linear_pred": 0.9474999904632568,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2448979457782139
+    },
+    {
+      "odors": [
+        0,
+        9
+      ],
+      "odor_names": [
+        "sfr",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.6055004000663757,
+      "sim_to_comp2": 0.9236704707145691,
+      "sim_to_linear_pred": 0.926358163356781,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.192660562739851
+    },
+    {
+      "odors": [
+        0,
+        10
+      ],
+      "odor_names": [
+        "sfr",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.5979136824607849,
+      "sim_to_comp2": 0.921708881855011,
+      "sim_to_linear_pred": 0.8775127530097961,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.1481481393178303
+    },
+    {
+      "odors": [
+        0,
+        11
+      ],
+      "odor_names": [
+        "sfr",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.6189472079277039,
+      "sim_to_comp2": 0.9031792879104614,
+      "sim_to_linear_pred": 0.9409974813461304,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2264151233674456
+    },
+    {
+      "odors": [
+        0,
+        12
+      ],
+      "odor_names": [
+        "sfr",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.6551986336708069,
+      "sim_to_comp2": 0.9499114751815796,
+      "sim_to_linear_pred": 0.9558939933776855,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.1304348085688285
+    },
+    {
+      "odors": [
+        0,
+        13
+      ],
+      "odor_names": [
+        "sfr",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8763756155967712,
+      "sim_to_comp2": 0.9191573262214661,
+      "sim_to_linear_pred": 0.9676415324211121,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2452830570624285
+    },
+    {
+      "odors": [
+        0,
+        14
+      ],
+      "odor_names": [
+        "sfr",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.713347852230072,
+      "sim_to_comp2": 0.9288992285728455,
+      "sim_to_linear_pred": 0.9673252105712891,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.1192660326508599
+    },
+    {
+      "odors": [
+        0,
+        15
+      ],
+      "odor_names": [
+        "sfr",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.8589869737625122,
+      "sim_to_comp2": 0.8464890122413635,
+      "sim_to_linear_pred": 0.960387647151947,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.225225175068505
+    },
+    {
+      "odors": [
+        0,
+        16
+      ],
+      "odor_names": [
+        "sfr",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.6309851408004761,
+      "sim_to_comp2": 0.962661623954773,
+      "sim_to_linear_pred": 0.9465715289115906,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1531531468835632
+    },
+    {
+      "odors": [
+        0,
+        17
+      ],
+      "odor_names": [
+        "sfr",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.7407577633857727,
+      "sim_to_comp2": 0.9618015289306641,
+      "sim_to_linear_pred": 0.9580754041671753,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.375
+      ],
+      "suppression_ratio": 1.145454535523722
+    },
+    {
+      "odors": [
+        0,
+        18
+      ],
+      "odor_names": [
+        "sfr",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.4370069205760956,
+      "sim_to_comp2": 0.9732701778411865,
+      "sim_to_linear_pred": 0.9124406576156616,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.196428585113311
+    },
+    {
+      "odors": [
+        0,
+        19
+      ],
+      "odor_names": [
+        "sfr",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7262575030326843,
+      "sim_to_comp2": 0.9492552280426025,
+      "sim_to_linear_pred": 0.9550064206123352,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2952380236152097
+    },
+    {
+      "odors": [
+        0,
+        20
+      ],
+      "odor_names": [
+        "sfr",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.6370347142219543,
+      "sim_to_comp2": 0.9017603397369385,
+      "sim_to_linear_pred": 0.9116235971450806,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3125
+      ],
+      "suppression_ratio": 1.1485148784097834
+    },
+    {
+      "odors": [
+        0,
+        21
+      ],
+      "odor_names": [
+        "sfr",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.8325791954994202,
+      "sim_to_comp2": 0.8950479030609131,
+      "sim_to_linear_pred": 0.9455205202102661,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3061224650661434
+    },
+    {
+      "odors": [
+        0,
+        22
+      ],
+      "odor_names": [
+        "sfr",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7656080722808838,
+      "sim_to_comp2": 0.8955451250076294,
+      "sim_to_linear_pred": 0.9298948645591736,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1320754548925316
+    },
+    {
+      "odors": [
+        0,
+        23
+      ],
+      "odor_names": [
+        "sfr",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.5851673483848572,
+      "sim_to_comp2": 0.9690245985984802,
+      "sim_to_linear_pred": 0.9266749024391174,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.1919191533868962
+    },
+    {
+      "odors": [
+        0,
+        24
+      ],
+      "odor_names": [
+        "sfr",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7931736707687378,
+      "sim_to_comp2": 0.9248961806297302,
+      "sim_to_linear_pred": 0.9774531126022339,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.0769230705746533
+    },
+    {
+      "odors": [
+        0,
+        25
+      ],
+      "odor_names": [
+        "sfr",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8176009058952332,
+      "sim_to_comp2": 0.9259534478187561,
+      "sim_to_linear_pred": 0.9522573947906494,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.179999956226349
+    },
+    {
+      "odors": [
+        0,
+        26
+      ],
+      "odor_names": [
+        "sfr",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7028130888938904,
+      "sim_to_comp2": 0.9425138831138611,
+      "sim_to_linear_pred": 0.9395334720611572,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1809523396913708
+    },
+    {
+      "odors": [
+        0,
+        27
+      ],
+      "odor_names": [
+        "sfr",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8817394971847534,
+      "sim_to_comp2": 0.9448575973510742,
+      "sim_to_linear_pred": 0.932650089263916,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.4375
+      ],
+      "suppression_ratio": 1.176470562778837
+    },
+    {
+      "odors": [
+        1,
+        2
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "geranyl acetate"
+      ],
+      "sim_to_comp1": 0.776248037815094,
+      "sim_to_comp2": 0.898201584815979,
+      "sim_to_linear_pred": 0.9175883531570435,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3958333432674408
+      ],
+      "suppression_ratio": 1.1666666666666667
+    },
+    {
+      "odors": [
+        1,
+        3
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "(1R)-(-)-fenchone"
+      ],
+      "sim_to_comp1": 0.7953732013702393,
+      "sim_to_comp2": 0.8919868469238281,
+      "sim_to_linear_pred": 0.902799129486084,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.15384614749773
+    },
+    {
+      "odors": [
+        1,
+        4
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "E2-hexenal"
+      ],
+      "sim_to_comp1": 0.4463684558868408,
+      "sim_to_comp2": 0.9223150014877319,
+      "sim_to_linear_pred": 0.8570656776428223,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3958333432674408
+      ],
+      "suppression_ratio": 1.2962962786356609
+    },
+    {
+      "odors": [
+        1,
+        5
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "2-heptanone"
+      ],
+      "sim_to_comp1": 0.4918098449707031,
+      "sim_to_comp2": 0.9700549244880676,
+      "sim_to_linear_pred": 0.8948731422424316,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3267327548826298
+    },
+    {
+      "odors": [
+        1,
+        6
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "2,3-butanedione"
+      ],
+      "sim_to_comp1": 0.8597212433815002,
+      "sim_to_comp2": 0.8941729664802551,
+      "sim_to_linear_pred": 0.9150717258453369,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.2553191401937958
+    },
+    {
+      "odors": [
+        1,
+        7
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.7128984332084656,
+      "sim_to_comp2": 0.9024412631988525,
+      "sim_to_linear_pred": 0.8856865167617798,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2641509907574113
+    },
+    {
+      "odors": [
+        1,
+        8
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.781715452671051,
+      "sim_to_comp2": 0.8987305760383606,
+      "sim_to_linear_pred": 0.9636392593383789,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2688172023163211
+    },
+    {
+      "odors": [
+        1,
+        9
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.33586201071739197,
+      "sim_to_comp2": 0.8908630013465881,
+      "sim_to_linear_pred": 0.8398913741111755,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2500000412647547
+    },
+    {
+      "odors": [
+        1,
+        10
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.48419418931007385,
+      "sim_to_comp2": 0.9348175525665283,
+      "sim_to_linear_pred": 0.8418005704879761,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.3203883430422705
+    },
+    {
+      "odors": [
+        1,
+        11
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.5140897035598755,
+      "sim_to_comp2": 0.903594970703125,
+      "sim_to_linear_pred": 0.922734260559082,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.227722803408838
+    },
+    {
+      "odors": [
+        1,
+        12
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.5392382144927979,
+      "sim_to_comp2": 0.9255548119544983,
+      "sim_to_linear_pred": 0.9389109015464783,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.2727272940076093
+    },
+    {
+      "odors": [
+        1,
+        13
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8003588914871216,
+      "sim_to_comp2": 0.8666041493415833,
+      "sim_to_linear_pred": 0.9224085211753845,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2673267839983549
+    },
+    {
+      "odors": [
+        1,
+        14
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.560070276260376,
+      "sim_to_comp2": 0.9014962911605835,
+      "sim_to_linear_pred": 0.9528998136520386,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.15384614749773
+    },
+    {
+      "odors": [
+        1,
+        15
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.5802448987960815,
+      "sim_to_comp2": 0.8985202312469482,
+      "sim_to_linear_pred": 0.9220042824745178,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3584905782599772
+    },
+    {
+      "odors": [
+        1,
+        16
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.4986783266067505,
+      "sim_to_comp2": 0.9469293355941772,
+      "sim_to_linear_pred": 0.9018758535385132,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2641509907574113
+    },
+    {
+      "odors": [
+        1,
+        17
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.4901246130466461,
+      "sim_to_comp2": 0.9152986407279968,
+      "sim_to_linear_pred": 0.9117200970649719,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.375
+      ],
+      "suppression_ratio": 1.142857131179498
+    },
+    {
+      "odors": [
+        1,
+        18
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.4085586965084076,
+      "sim_to_comp2": 0.9572689533233643,
+      "sim_to_linear_pred": 0.8944002985954285,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.1401869031433163
+    },
+    {
+      "odors": [
+        1,
+        19
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.4927230477333069,
+      "sim_to_comp2": 0.962891697883606,
+      "sim_to_linear_pred": 0.9297829270362854,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1400000231742857
+    },
+    {
+      "odors": [
+        1,
+        20
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.660818338394165,
+      "sim_to_comp2": 0.9219653606414795,
+      "sim_to_linear_pred": 0.9328836798667908,
+      "mix_sparsity": 0.3819444477558136,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3125
+      ],
+      "suppression_ratio": 1.1458333603416884
+    },
+    {
+      "odors": [
+        1,
+        21
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.790260374546051,
+      "sim_to_comp2": 0.8875921368598938,
+      "sim_to_linear_pred": 0.9091207981109619,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.376344138617489
+    },
+    {
+      "odors": [
+        1,
+        22
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7490158677101135,
+      "sim_to_comp2": 0.9592335224151611,
+      "sim_to_linear_pred": 0.9404830932617188,
+      "mix_sparsity": 0.375,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.069306966031654
+    },
+    {
+      "odors": [
+        1,
+        23
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.3921484053134918,
+      "sim_to_comp2": 0.9323880076408386,
+      "sim_to_linear_pred": 0.9142727851867676,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.2127660186434304
+    },
+    {
+      "odors": [
+        1,
+        24
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.5977516770362854,
+      "sim_to_comp2": 0.9458109140396118,
+      "sim_to_linear_pred": 0.9382122755050659,
+      "mix_sparsity": 0.3819444477558136,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.111111120744185
+    },
+    {
+      "odors": [
+        1,
+        25
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8472524285316467,
+      "sim_to_comp2": 0.9378666281700134,
+      "sim_to_linear_pred": 0.9343042373657227,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.263157889981679
+    },
+    {
+      "odors": [
+        1,
+        26
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.5539349913597107,
+      "sim_to_comp2": 0.9309825897216797,
+      "sim_to_linear_pred": 0.8805363178253174,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1999999656677247
+    },
+    {
+      "odors": [
+        1,
+        27
+      ],
+      "odor_names": [
+        "propanoic acid",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.7941915392875671,
+      "sim_to_comp2": 0.8609741926193237,
+      "sim_to_linear_pred": 0.9055864810943604,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3541666567325592,
+        0.4375
+      ],
+      "suppression_ratio": 1.0526315670594613
+    },
+    {
+      "odors": [
+        2,
+        3
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "(1R)-(-)-fenchone"
+      ],
+      "sim_to_comp1": 0.9147849082946777,
+      "sim_to_comp2": 0.9068161845207214,
+      "sim_to_linear_pred": 0.9354497790336609,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.109090882135817
+    },
+    {
+      "odors": [
+        2,
+        4
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "E2-hexenal"
+      ],
+      "sim_to_comp1": 0.6611849069595337,
+      "sim_to_comp2": 0.9193192720413208,
+      "sim_to_linear_pred": 0.9293326735496521,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3958333432674408
+      ],
+      "suppression_ratio": 1.1578947328794698
+    },
+    {
+      "odors": [
+        2,
+        5
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "2-heptanone"
+      ],
+      "sim_to_comp1": 0.6837562322616577,
+      "sim_to_comp2": 0.9225810766220093,
+      "sim_to_linear_pred": 0.9336419701576233,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.084112190015348
+    },
+    {
+      "odors": [
+        2,
+        6
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "2,3-butanedione"
+      ],
+      "sim_to_comp1": 0.8056491613388062,
+      "sim_to_comp2": 0.8748493790626526,
+      "sim_to_linear_pred": 0.953892171382904,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.179999956226349
+    },
+    {
+      "odors": [
+        2,
+        7
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.7949566841125488,
+      "sim_to_comp2": 0.8554384708404541,
+      "sim_to_linear_pred": 0.9383496046066284,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1428571319093512
+    },
+    {
+      "odors": [
+        2,
+        8
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.8405211567878723,
+      "sim_to_comp2": 0.9022995829582214,
+      "sim_to_linear_pred": 0.9704248905181885,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.1515151804143733
+    },
+    {
+      "odors": [
+        2,
+        9
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.6235557794570923,
+      "sim_to_comp2": 0.8568379878997803,
+      "sim_to_linear_pred": 0.9109503626823425,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.181818188911627
+    },
+    {
+      "odors": [
+        2,
+        10
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.6845372915267944,
+      "sim_to_comp2": 0.8513930439949036,
+      "sim_to_linear_pred": 0.9134383201599121,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.1559632976953556
+    },
+    {
+      "odors": [
+        2,
+        11
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.6536885499954224,
+      "sim_to_comp2": 0.8868576288223267,
+      "sim_to_linear_pred": 0.9671202301979065,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1028037075809394
+    },
+    {
+      "odors": [
+        2,
+        12
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.6342770457267761,
+      "sim_to_comp2": 0.9117517471313477,
+      "sim_to_linear_pred": 0.9545295834541321,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.2068965402426248
+    },
+    {
+      "odors": [
+        2,
+        13
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8837868571281433,
+      "sim_to_comp2": 0.84391188621521,
+      "sim_to_linear_pred": 0.9404823780059814,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1962616964868817
+    },
+    {
+      "odors": [
+        2,
+        14
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.6783761382102966,
+      "sim_to_comp2": 0.9162448644638062,
+      "sim_to_linear_pred": 0.9652778506278992,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.1272727088297696
+    },
+    {
+      "odors": [
+        2,
+        15
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.7798200845718384,
+      "sim_to_comp2": 0.8625356554985046,
+      "sim_to_linear_pred": 0.937332808971405,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1607142829773378
+    },
+    {
+      "odors": [
+        2,
+        16
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.6009232997894287,
+      "sim_to_comp2": 0.9347767233848572,
+      "sim_to_linear_pred": 0.9219554662704468,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1249999808413644
+    },
+    {
+      "odors": [
+        2,
+        17
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.675550639629364,
+      "sim_to_comp2": 0.9459747672080994,
+      "sim_to_linear_pred": 0.9313743710517883,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.375
+      ],
+      "suppression_ratio": 1.2072072260159772
+    },
+    {
+      "odors": [
+        2,
+        18
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.6076223254203796,
+      "sim_to_comp2": 0.9325669407844543,
+      "sim_to_linear_pred": 0.9458703994750977,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2389380100778138
+    },
+    {
+      "odors": [
+        2,
+        19
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.6935062408447266,
+      "sim_to_comp2": 0.924025297164917,
+      "sim_to_linear_pred": 0.9556666612625122,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1320754090591292
+    },
+    {
+      "odors": [
+        2,
+        20
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7054586410522461,
+      "sim_to_comp2": 0.9320392608642578,
+      "sim_to_linear_pred": 0.9389165639877319,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3125
+      ],
+      "suppression_ratio": 1.1372549234102063
+    },
+    {
+      "odors": [
+        2,
+        21
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7743657827377319,
+      "sim_to_comp2": 0.8492313623428345,
+      "sim_to_linear_pred": 0.9271156787872314,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2323232130570845
+    },
+    {
+      "odors": [
+        2,
+        22
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7771397829055786,
+      "sim_to_comp2": 0.9067375659942627,
+      "sim_to_linear_pred": 0.9632839560508728,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.084112190015348
+    },
+    {
+      "odors": [
+        2,
+        23
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6482153534889221,
+      "sim_to_comp2": 0.9412137269973755,
+      "sim_to_linear_pred": 0.9466133117675781,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.179999956226349
+    },
+    {
+      "odors": [
+        2,
+        24
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7524603605270386,
+      "sim_to_comp2": 0.90239417552948,
+      "sim_to_linear_pred": 0.947576642036438,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.1999999673025958
+    },
+    {
+      "odors": [
+        2,
+        25
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8085454702377319,
+      "sim_to_comp2": 0.8464478850364685,
+      "sim_to_linear_pred": 0.9334459900856018,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2079207617889938
+    },
+    {
+      "odors": [
+        2,
+        26
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8176723718643188,
+      "sim_to_comp2": 0.9480051398277283,
+      "sim_to_linear_pred": 0.9674011468887329,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.169811274921314
+    },
+    {
+      "odors": [
+        2,
+        27
+      ],
+      "odor_names": [
+        "geranyl acetate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8786791563034058,
+      "sim_to_comp2": 0.8774135708808899,
+      "sim_to_linear_pred": 0.9101827144622803,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.4375
+      ],
+      "suppression_ratio": 0.9833332898219431
+    },
+    {
+      "odors": [
+        3,
+        4
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "E2-hexenal"
+      ],
+      "sim_to_comp1": 0.6094544529914856,
+      "sim_to_comp2": 0.8986373543739319,
+      "sim_to_linear_pred": 0.9236605167388916,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3958333432674408
+      ],
+      "suppression_ratio": 1.2363635909655866
+    },
+    {
+      "odors": [
+        3,
+        5
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "2-heptanone"
+      ],
+      "sim_to_comp1": 0.7071105241775513,
+      "sim_to_comp2": 0.9404001235961914,
+      "sim_to_linear_pred": 0.9390600323677063,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3203883430422705
+    },
+    {
+      "odors": [
+        3,
+        6
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "2,3-butanedione"
+      ],
+      "sim_to_comp1": 0.7711735963821411,
+      "sim_to_comp2": 0.8721849322319031,
+      "sim_to_linear_pred": 0.9295981526374817,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.333333363135656
+    },
+    {
+      "odors": [
+        3,
+        7
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.7382229566574097,
+      "sim_to_comp2": 0.8821128010749817,
+      "sim_to_linear_pred": 0.9149270057678223,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.185185194015503
+    },
+    {
+      "odors": [
+        3,
+        8
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.8515583872795105,
+      "sim_to_comp2": 0.8877981305122375,
+      "sim_to_linear_pred": 0.9568367004394531,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3473684581429022
+    },
+    {
+      "odors": [
+        3,
+        9
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.48629698157310486,
+      "sim_to_comp2": 0.8917555212974548,
+      "sim_to_linear_pred": 0.908026933670044,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2264151233674456
+    },
+    {
+      "odors": [
+        3,
+        10
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.6567029356956482,
+      "sim_to_comp2": 0.9334935545921326,
+      "sim_to_linear_pred": 0.9372459053993225,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.2000000163487028
+    },
+    {
+      "odors": [
+        3,
+        11
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.6380276083946228,
+      "sim_to_comp2": 0.9177811741828918,
+      "sim_to_linear_pred": 0.9395685195922852,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2038835137534722
+    },
+    {
+      "odors": [
+        3,
+        12
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.7182876467704773,
+      "sim_to_comp2": 0.9320060014724731,
+      "sim_to_linear_pred": 0.9727842211723328,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.2678571613315421
+    },
+    {
+      "odors": [
+        3,
+        13
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.9244301319122314,
+      "sim_to_comp2": 0.8909470438957214,
+      "sim_to_linear_pred": 0.9503402709960938,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2038835137534722
+    },
+    {
+      "odors": [
+        3,
+        14
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.6997386813163757,
+      "sim_to_comp2": 0.8997817635536194,
+      "sim_to_linear_pred": 0.9499159455299377,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2830188434800458
+    },
+    {
+      "odors": [
+        3,
+        15
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.6349372863769531,
+      "sim_to_comp2": 0.9304030537605286,
+      "sim_to_linear_pred": 0.9479407668113708,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3333333333333333
+    },
+    {
+      "odors": [
+        3,
+        16
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.6400461196899414,
+      "sim_to_comp2": 0.8867623209953308,
+      "sim_to_linear_pred": 0.9270033836364746,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2962962786356609
+    },
+    {
+      "odors": [
+        3,
+        17
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6506953835487366,
+      "sim_to_comp2": 0.9394455552101135,
+      "sim_to_linear_pred": 0.9449402093887329,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.375
+      ],
+      "suppression_ratio": 1.1588785009245048
+    },
+    {
+      "odors": [
+        3,
+        18
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.5994352698326111,
+      "sim_to_comp2": 0.9508758187294006,
+      "sim_to_linear_pred": 0.9453212022781372,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.0275229487833717
+    },
+    {
+      "odors": [
+        3,
+        19
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7034503817558289,
+      "sim_to_comp2": 0.9389476180076599,
+      "sim_to_linear_pred": 0.9613417983055115,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1372549234102063
+    },
+    {
+      "odors": [
+        3,
+        20
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7765715718269348,
+      "sim_to_comp2": 0.9426687955856323,
+      "sim_to_linear_pred": 0.952290415763855,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3125
+      ],
+      "suppression_ratio": 1.204081599586261
+    },
+    {
+      "odors": [
+        3,
+        21
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.8194872140884399,
+      "sim_to_comp2": 0.9049004316329956,
+      "sim_to_linear_pred": 0.9685362577438354,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.200000054208857
+    },
+    {
+      "odors": [
+        3,
+        22
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7646303772926331,
+      "sim_to_comp2": 0.9302113652229309,
+      "sim_to_linear_pred": 0.9582838416099548,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.165048542880284
+    },
+    {
+      "odors": [
+        3,
+        23
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6714857816696167,
+      "sim_to_comp2": 0.9463506937026978,
+      "sim_to_linear_pred": 0.9593916535377502,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3125000195577743
+    },
+    {
+      "odors": [
+        3,
+        24
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7654328942298889,
+      "sim_to_comp2": 0.9391536712646484,
+      "sim_to_linear_pred": 0.957573413848877,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.1683167828822676
+    },
+    {
+      "odors": [
+        3,
+        25
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.771869421005249,
+      "sim_to_comp2": 0.8838533163070679,
+      "sim_to_linear_pred": 0.9288560152053833,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.1546392062731792
+    },
+    {
+      "odors": [
+        3,
+        26
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8107259273529053,
+      "sim_to_comp2": 0.9500725269317627,
+      "sim_to_linear_pred": 0.9647814035415649,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1568626914744842
+    },
+    {
+      "odors": [
+        3,
+        27
+      ],
+      "odor_names": [
+        "(1R)-(-)-fenchone",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.876720666885376,
+      "sim_to_comp2": 0.9297781586647034,
+      "sim_to_linear_pred": 0.9385493993759155,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.4375
+      ],
+      "suppression_ratio": 1.086206901016757
+    },
+    {
+      "odors": [
+        4,
+        5
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "2-heptanone"
+      ],
+      "sim_to_comp1": 0.866665780544281,
+      "sim_to_comp2": 0.8510854840278625,
+      "sim_to_linear_pred": 0.9578181505203247,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1775700987056932
+    },
+    {
+      "odors": [
+        4,
+        6
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "2,3-butanedione"
+      ],
+      "sim_to_comp1": 0.9076902270317078,
+      "sim_to_comp2": 0.6634109616279602,
+      "sim_to_linear_pred": 0.9006062150001526,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.320000022315979
+    },
+    {
+      "odors": [
+        4,
+        7
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.9415902495384216,
+      "sim_to_comp2": 0.7860472202301025,
+      "sim_to_linear_pred": 0.9642460942268372,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1249999808413644
+    },
+    {
+      "odors": [
+        4,
+        8
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.8501043915748596,
+      "sim_to_comp2": 0.6018444895744324,
+      "sim_to_linear_pred": 0.9307720065116882,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.4545454545454546
+    },
+    {
+      "odors": [
+        4,
+        9
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.8921530246734619,
+      "sim_to_comp2": 0.6609792709350586,
+      "sim_to_linear_pred": 0.8805118799209595,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2545454176595392
+    },
+    {
+      "odors": [
+        4,
+        10
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.8270464539527893,
+      "sim_to_comp2": 0.6190710067749023,
+      "sim_to_linear_pred": 0.9247710108757019,
+      "mix_sparsity": 0.5208333134651184,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.3761467304748276
+    },
+    {
+      "odors": [
+        4,
+        11
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.7549760341644287,
+      "sim_to_comp2": 0.6482688784599304,
+      "sim_to_linear_pred": 0.9396058917045593,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3457943985207923
+    },
+    {
+      "odors": [
+        4,
+        12
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.8333271741867065,
+      "sim_to_comp2": 0.5789755582809448,
+      "sim_to_linear_pred": 0.9333348274230957,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.1724137650375275
+    },
+    {
+      "odors": [
+        4,
+        13
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8812397122383118,
+      "sim_to_comp2": 0.5215656757354736,
+      "sim_to_linear_pred": 0.8860110640525818,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.252336489830447
+    },
+    {
+      "odors": [
+        4,
+        14
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.8489831686019897,
+      "sim_to_comp2": 0.47276169061660767,
+      "sim_to_linear_pred": 0.8663306832313538,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2545454176595392
+    },
+    {
+      "odors": [
+        4,
+        15
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.9456673860549927,
+      "sim_to_comp2": 0.8151714205741882,
+      "sim_to_linear_pred": 0.9307734966278076,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2142856595467557
+    },
+    {
+      "odors": [
+        4,
+        16
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.8831900358200073,
+      "sim_to_comp2": 0.9302376508712769,
+      "sim_to_linear_pred": 0.9414121508598328,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3214285659546756
+    },
+    {
+      "odors": [
+        4,
+        17
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.8743702173233032,
+      "sim_to_comp2": 0.8522011041641235,
+      "sim_to_linear_pred": 0.960533082485199,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.375
+      ],
+      "suppression_ratio": 1.2432432014459764
+    },
+    {
+      "odors": [
+        4,
+        18
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.8999707698822021,
+      "sim_to_comp2": 0.8944237232208252,
+      "sim_to_linear_pred": 0.98409104347229,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.1327433473717143
+    },
+    {
+      "odors": [
+        4,
+        19
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.8440268635749817,
+      "sim_to_comp2": 0.8428527116775513,
+      "sim_to_linear_pred": 0.9792649149894714,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.301886724466616
+    },
+    {
+      "odors": [
+        4,
+        20
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.9021067023277283,
+      "sim_to_comp2": 0.7442921996116638,
+      "sim_to_linear_pred": 0.974575936794281,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3125
+      ],
+      "suppression_ratio": 1.313725509170567
+    },
+    {
+      "odors": [
+        4,
+        21
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.8000218868255615,
+      "sim_to_comp2": 0.6478927731513977,
+      "sim_to_linear_pred": 0.8533856868743896,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.313131332397461
+    },
+    {
+      "odors": [
+        4,
+        22
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.8381754159927368,
+      "sim_to_comp2": 0.7604488134384155,
+      "sim_to_linear_pred": 0.9126290082931519,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.21495329426807
+    },
+    {
+      "odors": [
+        4,
+        23
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.8087388277053833,
+      "sim_to_comp2": 0.8998852372169495,
+      "sim_to_linear_pred": 0.9789202213287354,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3000000128746032
+    },
+    {
+      "odors": [
+        4,
+        24
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.869926393032074,
+      "sim_to_comp2": 0.7805949449539185,
+      "sim_to_linear_pred": 0.9664350748062134,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.2380952225250457
+    },
+    {
+      "odors": [
+        4,
+        25
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8958525657653809,
+      "sim_to_comp2": 0.70804363489151,
+      "sim_to_linear_pred": 0.9193990230560303,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2277227512423567
+    },
+    {
+      "odors": [
+        4,
+        26
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.9170786738395691,
+      "sim_to_comp2": 0.7984991073608398,
+      "sim_to_linear_pred": 0.9696978330612183,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1886792078524064
+    },
+    {
+      "odors": [
+        4,
+        27
+      ],
+      "odor_names": [
+        "E2-hexenal",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9255367517471313,
+      "sim_to_comp2": 0.7812577486038208,
+      "sim_to_linear_pred": 0.9388450980186462,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3958333432674408,
+        0.4375
+      ],
+      "suppression_ratio": 1.1999999856948855
+    },
+    {
+      "odors": [
+        5,
+        6
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "2,3-butanedione"
+      ],
+      "sim_to_comp1": 0.9490126371383667,
+      "sim_to_comp2": 0.6342376470565796,
+      "sim_to_linear_pred": 0.88869309425354,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4193549131379561
+    },
+    {
+      "odors": [
+        5,
+        7
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.9721981287002563,
+      "sim_to_comp2": 0.7327638268470764,
+      "sim_to_linear_pred": 0.9585790634155273,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2380952731281727
+    },
+    {
+      "odors": [
+        5,
+        8
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.8750086426734924,
+      "sim_to_comp2": 0.5944652557373047,
+      "sim_to_linear_pred": 0.9292593598365784,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.434782691849205
+    },
+    {
+      "odors": [
+        5,
+        9
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.8620805740356445,
+      "sim_to_comp2": 0.6394670009613037,
+      "sim_to_linear_pred": 0.9255831837654114,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.359223313915459
+    },
+    {
+      "odors": [
+        5,
+        10
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.8842822313308716,
+      "sim_to_comp2": 0.6437733173370361,
+      "sim_to_linear_pred": 0.9321818351745605,
+      "mix_sparsity": 0.5208333134651184,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.470588220444517
+    },
+    {
+      "odors": [
+        5,
+        11
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.8784593939781189,
+      "sim_to_comp2": 0.5764931440353394,
+      "sim_to_linear_pred": 0.9170922040939331,
+      "mix_sparsity": 0.5277777910232544,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.5200000961303748
+    },
+    {
+      "odors": [
+        5,
+        12
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.808448314666748,
+      "sim_to_comp2": 0.7312042117118835,
+      "sim_to_linear_pred": 0.9387421607971191,
+      "mix_sparsity": 0.5277777910232544,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.3944954966447287
+    },
+    {
+      "odors": [
+        5,
+        13
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.9065468311309814,
+      "sim_to_comp2": 0.5400634407997131,
+      "sim_to_linear_pred": 0.9153231978416443,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3200000789642363
+    },
+    {
+      "odors": [
+        5,
+        14
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.8979339599609375,
+      "sim_to_comp2": 0.6529328227043152,
+      "sim_to_linear_pred": 0.9353631734848022,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.359223313915459
+    },
+    {
+      "odors": [
+        5,
+        15
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.9093442559242249,
+      "sim_to_comp2": 0.7509385943412781,
+      "sim_to_linear_pred": 0.945478081703186,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.161904759569233
+    },
+    {
+      "odors": [
+        5,
+        16
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.8981767296791077,
+      "sim_to_comp2": 0.863640308380127,
+      "sim_to_linear_pred": 0.9502860903739929,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2761905299076426
+    },
+    {
+      "odors": [
+        5,
+        17
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.9138542413711548,
+      "sim_to_comp2": 0.8583940863609314,
+      "sim_to_linear_pred": 0.9742802381515503,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.375
+      ],
+      "suppression_ratio": 1.134615368744325
+    },
+    {
+      "odors": [
+        5,
+        18
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.9099384546279907,
+      "sim_to_comp2": 0.9179164171218872,
+      "sim_to_linear_pred": 0.9736576676368713,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.1509433885875142
+    },
+    {
+      "odors": [
+        5,
+        19
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.9231208562850952,
+      "sim_to_comp2": 0.9132745862007141,
+      "sim_to_linear_pred": 0.9702714681625366,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.292929302562367
+    },
+    {
+      "odors": [
+        5,
+        20
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.908210039138794,
+      "sim_to_comp2": 0.8360216617584229,
+      "sim_to_linear_pred": 0.9765673875808716,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3125
+      ],
+      "suppression_ratio": 1.3263158161025963
+    },
+    {
+      "odors": [
+        5,
+        21
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.9647560715675354,
+      "sim_to_comp2": 0.7354804277420044,
+      "sim_to_linear_pred": 0.9159204959869385,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.347826125491095
+    },
+    {
+      "odors": [
+        5,
+        22
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.9587231874465942,
+      "sim_to_comp2": 0.7793684005737305,
+      "sim_to_linear_pred": 0.9109804034233093,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2800000583648703
+    },
+    {
+      "odors": [
+        5,
+        23
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.9236887097358704,
+      "sim_to_comp2": 0.9179319739341736,
+      "sim_to_linear_pred": 0.9470201134681702,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4623655953673578
+    },
+    {
+      "odors": [
+        5,
+        24
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.9649891257286072,
+      "sim_to_comp2": 0.8864350914955139,
+      "sim_to_linear_pred": 0.9441109299659729,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.3061224650661434
+    },
+    {
+      "odors": [
+        5,
+        25
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.9567221999168396,
+      "sim_to_comp2": 0.7255322337150574,
+      "sim_to_linear_pred": 0.9201228618621826,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.4042553852024329
+    },
+    {
+      "odors": [
+        5,
+        26
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.9280478358268738,
+      "sim_to_comp2": 0.8362144231796265,
+      "sim_to_linear_pred": 0.9698042869567871,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.292929302562367
+    },
+    {
+      "odors": [
+        5,
+        27
+      ],
+      "odor_names": [
+        "2-heptanone",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9604865908622742,
+      "sim_to_comp2": 0.7402242422103882,
+      "sim_to_linear_pred": 0.9426922798156738,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.4375
+      ],
+      "suppression_ratio": 1.1681416379564276
+    },
+    {
+      "odors": [
+        6,
+        7
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "cyclohexanone"
+      ],
+      "sim_to_comp1": 0.8118928670883179,
+      "sim_to_comp2": 0.8340535163879395,
+      "sim_to_linear_pred": 0.9073848128318787,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1836735140726202
+    },
+    {
+      "odors": [
+        6,
+        8
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.7408270239830017,
+      "sim_to_comp2": 0.7961832284927368,
+      "sim_to_linear_pred": 0.9568897485733032,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3647059655107039
+    },
+    {
+      "odors": [
+        6,
+        9
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.6719862222671509,
+      "sim_to_comp2": 0.8104826211929321,
+      "sim_to_linear_pred": 0.9251511096954346,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.3125000195577743
+    },
+    {
+      "odors": [
+        6,
+        10
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.7103334069252014,
+      "sim_to_comp2": 0.7411864399909973,
+      "sim_to_linear_pred": 0.9203636646270752,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.43157893595603
+    },
+    {
+      "odors": [
+        6,
+        11
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.7378337383270264,
+      "sim_to_comp2": 0.7771124839782715,
+      "sim_to_linear_pred": 0.9560178518295288,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.376344138617489
+    },
+    {
+      "odors": [
+        6,
+        12
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.7263680100440979,
+      "sim_to_comp2": 0.7980743646621704,
+      "sim_to_linear_pred": 0.9587451219558716,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.3333333333333333
+    },
+    {
+      "odors": [
+        6,
+        13
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8620604276657104,
+      "sim_to_comp2": 0.7363274693489075,
+      "sim_to_linear_pred": 0.9433298110961914,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3548387513572555
+    },
+    {
+      "odors": [
+        6,
+        14
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.7492645978927612,
+      "sim_to_comp2": 0.787263035774231,
+      "sim_to_linear_pred": 0.958030104637146,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.4374999916180966
+    },
+    {
+      "odors": [
+        6,
+        15
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.7277990579605103,
+      "sim_to_comp2": 0.8603144884109497,
+      "sim_to_linear_pred": 0.9210903644561768,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3265306381621198
+    },
+    {
+      "odors": [
+        6,
+        16
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.5549154877662659,
+      "sim_to_comp2": 0.9555864334106445,
+      "sim_to_linear_pred": 0.9032449126243591,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3469388112580962
+    },
+    {
+      "odors": [
+        6,
+        17
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6556422114372253,
+      "sim_to_comp2": 0.8630030751228333,
+      "sim_to_linear_pred": 0.943598747253418,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.375
+      ],
+      "suppression_ratio": 1.3195876516714553
+    },
+    {
+      "odors": [
+        6,
+        18
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.6684621572494507,
+      "sim_to_comp2": 0.8641006946563721,
+      "sim_to_linear_pred": 0.9612979888916016,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        6,
+        19
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7155660390853882,
+      "sim_to_comp2": 0.8968213200569153,
+      "sim_to_linear_pred": 0.950834333896637,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.3478260626188976
+    },
+    {
+      "odors": [
+        6,
+        20
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7205531001091003,
+      "sim_to_comp2": 0.8584438562393188,
+      "sim_to_linear_pred": 0.9517501592636108,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3125
+      ],
+      "suppression_ratio": 1.340909062091969
+    },
+    {
+      "odors": [
+        6,
+        21
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.8539708852767944,
+      "sim_to_comp2": 0.8685466051101685,
+      "sim_to_linear_pred": 0.8788121342658997,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.5764706773328971
+    },
+    {
+      "odors": [
+        6,
+        22
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.8005435466766357,
+      "sim_to_comp2": 0.9228384494781494,
+      "sim_to_linear_pred": 0.884373664855957,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2473119073471532
+    },
+    {
+      "odors": [
+        6,
+        23
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6381089687347412,
+      "sim_to_comp2": 0.9054927825927734,
+      "sim_to_linear_pred": 0.9481034278869629,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4186046604468026
+    },
+    {
+      "odors": [
+        6,
+        24
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.8101015090942383,
+      "sim_to_comp2": 0.9343240261077881,
+      "sim_to_linear_pred": 0.9618627429008484,
+      "mix_sparsity": 0.375,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.1868131805943227
+    },
+    {
+      "odors": [
+        6,
+        25
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.899519681930542,
+      "sim_to_comp2": 0.9127902388572693,
+      "sim_to_linear_pred": 0.9131126999855042,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.356321817534904
+    },
+    {
+      "odors": [
+        6,
+        26
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7406033277511597,
+      "sim_to_comp2": 0.8777730464935303,
+      "sim_to_linear_pred": 0.9408736824989319,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2608695936112861
+    },
+    {
+      "odors": [
+        6,
+        27
+      ],
+      "odor_names": [
+        "2,3-butanedione",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8829779028892517,
+      "sim_to_comp2": 0.8721048831939697,
+      "sim_to_linear_pred": 0.9562392830848694,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.4375
+      ],
+      "suppression_ratio": 1.169811322282497
+    },
+    {
+      "odors": [
+        7,
+        8
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "methyl salicylate"
+      ],
+      "sim_to_comp1": 0.6683297753334045,
+      "sim_to_comp2": 0.8236026167869568,
+      "sim_to_linear_pred": 0.9528411030769348,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2783505182005745
+    },
+    {
+      "odors": [
+        7,
+        9
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.7708045840263367,
+      "sim_to_comp2": 0.835938572883606,
+      "sim_to_linear_pred": 0.9155752658843994,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2222222487131755
+    },
+    {
+      "odors": [
+        7,
+        10
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.6699123382568359,
+      "sim_to_comp2": 0.9051661491394043,
+      "sim_to_linear_pred": 0.9326282739639282,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.2897196051772268
+    },
+    {
+      "odors": [
+        7,
+        11
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.6039341688156128,
+      "sim_to_comp2": 0.8434620499610901,
+      "sim_to_linear_pred": 0.9401755928993225,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1809523879589678
+    },
+    {
+      "odors": [
+        7,
+        12
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.6112170219421387,
+      "sim_to_comp2": 0.8429583311080933,
+      "sim_to_linear_pred": 0.9545652866363525,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.192982437648051
+    },
+    {
+      "odors": [
+        7,
+        13
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.825100302696228,
+      "sim_to_comp2": 0.7412319779396057,
+      "sim_to_linear_pred": 0.9088429808616638,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2761905299076426
+    },
+    {
+      "odors": [
+        7,
+        14
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.6785598993301392,
+      "sim_to_comp2": 0.7844104170799255,
+      "sim_to_linear_pred": 0.9337820410728455,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.0555555820465088
+    },
+    {
+      "odors": [
+        7,
+        15
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.8817660808563232,
+      "sim_to_comp2": 0.912011981010437,
+      "sim_to_linear_pred": 0.9658419489860535,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.109090882135817
+    },
+    {
+      "odors": [
+        7,
+        16
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.8222619891166687,
+      "sim_to_comp2": 0.961776077747345,
+      "sim_to_linear_pred": 0.9774400591850281,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.218181842299532
+    },
+    {
+      "odors": [
+        7,
+        17
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6903543472290039,
+      "sim_to_comp2": 0.8823539614677429,
+      "sim_to_linear_pred": 0.9488003849983215,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.375
+      ],
+      "suppression_ratio": 1.2110091952620987
+    },
+    {
+      "odors": [
+        7,
+        18
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.8226327896118164,
+      "sim_to_comp2": 0.9720791578292847,
+      "sim_to_linear_pred": 0.9640735387802124,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.099099067751149
+    },
+    {
+      "odors": [
+        7,
+        19
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7396337389945984,
+      "sim_to_comp2": 0.8777155876159668,
+      "sim_to_linear_pred": 0.955524206161499,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2692307676436634
+    },
+    {
+      "odors": [
+        7,
+        20
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.873368501663208,
+      "sim_to_comp2": 0.9175446033477783,
+      "sim_to_linear_pred": 0.9662832021713257,
+      "mix_sparsity": 0.375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3125
+      ],
+      "suppression_ratio": 1.0799999948501586
+    },
+    {
+      "odors": [
+        7,
+        21
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.81067955493927,
+      "sim_to_comp2": 0.8229418992996216,
+      "sim_to_linear_pred": 0.9376341700553894,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.298969084936015
+    },
+    {
+      "odors": [
+        7,
+        22
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7657896280288696,
+      "sim_to_comp2": 0.8749650716781616,
+      "sim_to_linear_pred": 0.9303363561630249,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2380952731281727
+    },
+    {
+      "odors": [
+        7,
+        23
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6969488859176636,
+      "sim_to_comp2": 0.9268091917037964,
+      "sim_to_linear_pred": 0.9623284339904785,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3061224650661434
+    },
+    {
+      "odors": [
+        7,
+        24
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7483007907867432,
+      "sim_to_comp2": 0.9073561429977417,
+      "sim_to_linear_pred": 0.9717823266983032,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.2427184328483205
+    },
+    {
+      "odors": [
+        7,
+        25
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.775055468082428,
+      "sim_to_comp2": 0.8677348494529724,
+      "sim_to_linear_pred": 0.91998291015625,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.1919191533868962
+    },
+    {
+      "odors": [
+        7,
+        26
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8804953098297119,
+      "sim_to_comp2": 0.9435147047042847,
+      "sim_to_linear_pred": 0.9807924032211304,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.134615321924702
+    },
+    {
+      "odors": [
+        7,
+        27
+      ],
+      "odor_names": [
+        "cyclohexanone",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8711801767349243,
+      "sim_to_comp2": 0.8733227849006653,
+      "sim_to_linear_pred": 0.9624779224395752,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.4375
+      ],
+      "suppression_ratio": 1.067796605854533
+    },
+    {
+      "odors": [
+        8,
+        9
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "benzaldehyde"
+      ],
+      "sim_to_comp1": 0.7491246461868286,
+      "sim_to_comp2": 0.7424814105033875,
+      "sim_to_linear_pred": 0.9514731764793396,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.3052631740622906
+    },
+    {
+      "odors": [
+        8,
+        10
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.8257105946540833,
+      "sim_to_comp2": 0.9136436581611633,
+      "sim_to_linear_pred": 0.9294812679290771,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.2553191401937958
+    },
+    {
+      "odors": [
+        8,
+        11
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.7636488676071167,
+      "sim_to_comp2": 0.8051855564117432,
+      "sim_to_linear_pred": 0.9768704175949097,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.260869652427215
+    },
+    {
+      "odors": [
+        8,
+        12
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.7856154441833496,
+      "sim_to_comp2": 0.9393321871757507,
+      "sim_to_linear_pred": 0.9618915319442749,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.2673267839983549
+    },
+    {
+      "odors": [
+        8,
+        13
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8681772947311401,
+      "sim_to_comp2": 0.8657084703445435,
+      "sim_to_linear_pred": 0.9495140910148621,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2826087007225124
+    },
+    {
+      "odors": [
+        8,
+        14
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.7808375954627991,
+      "sim_to_comp2": 0.8406614065170288,
+      "sim_to_linear_pred": 0.9747111201286316,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.3052631740622906
+    },
+    {
+      "odors": [
+        8,
+        15
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.7468405961990356,
+      "sim_to_comp2": 0.7674017548561096,
+      "sim_to_linear_pred": 0.938570499420166,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.360824785142336
+    },
+    {
+      "odors": [
+        8,
+        16
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.5846372246742249,
+      "sim_to_comp2": 0.891608476638794,
+      "sim_to_linear_pred": 0.9339905977249146,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.298969084936015
+    },
+    {
+      "odors": [
+        8,
+        17
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.687553882598877,
+      "sim_to_comp2": 0.8555427193641663,
+      "sim_to_linear_pred": 0.9465608596801758,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.375
+      ],
+      "suppression_ratio": 1.1666667039195702
+    },
+    {
+      "odors": [
+        8,
+        18
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.6585817337036133,
+      "sim_to_comp2": 0.7997839450836182,
+      "sim_to_linear_pred": 0.9635816812515259,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2653061188741903
+    },
+    {
+      "odors": [
+        8,
+        19
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.6860877275466919,
+      "sim_to_comp2": 0.8462867736816406,
+      "sim_to_linear_pred": 0.9659063220024109,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.4065934097028385
+    },
+    {
+      "odors": [
+        8,
+        20
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7857125997543335,
+      "sim_to_comp2": 0.8160199522972107,
+      "sim_to_linear_pred": 0.9729124903678894,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3125
+      ],
+      "suppression_ratio": 1.3333333991039769
+    },
+    {
+      "odors": [
+        8,
+        21
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.712455689907074,
+      "sim_to_comp2": 0.8390094041824341,
+      "sim_to_linear_pred": 0.9579212665557861,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.4523809791422224
+    },
+    {
+      "odors": [
+        8,
+        22
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.6738463640213013,
+      "sim_to_comp2": 0.7914746999740601,
+      "sim_to_linear_pred": 0.9319608807563782,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.260869652427215
+    },
+    {
+      "odors": [
+        8,
+        23
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6333736181259155,
+      "sim_to_comp2": 0.8605045676231384,
+      "sim_to_linear_pred": 0.9575601816177368,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4117647118221932
+    },
+    {
+      "odors": [
+        8,
+        24
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7095270156860352,
+      "sim_to_comp2": 0.8063449859619141,
+      "sim_to_linear_pred": 0.9718101024627686,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.488888931274414
+    },
+    {
+      "odors": [
+        8,
+        25
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.7373114824295044,
+      "sim_to_comp2": 0.803422749042511,
+      "sim_to_linear_pred": 0.9466447830200195,
+      "mix_sparsity": 0.3680555522441864,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2325581557819045
+    },
+    {
+      "odors": [
+        8,
+        26
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7107625007629395,
+      "sim_to_comp2": 0.8719016313552856,
+      "sim_to_linear_pred": 0.9603180885314941,
+      "mix_sparsity": 0.3819444477558136,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.208791212937118
+    },
+    {
+      "odors": [
+        8,
+        27
+      ],
+      "odor_names": [
+        "methyl salicylate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8871558308601379,
+      "sim_to_comp2": 0.8886984586715698,
+      "sim_to_linear_pred": 0.9700903296470642,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.4375
+      ],
+      "suppression_ratio": 1.123809502789763
+    },
+    {
+      "odors": [
+        9,
+        10
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "acetophenone"
+      ],
+      "sim_to_comp1": 0.7706971168518066,
+      "sim_to_comp2": 0.8065918684005737,
+      "sim_to_linear_pred": 0.8809494972229004,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3611111044883728
+      ],
+      "suppression_ratio": 1.2571429015179076
+    },
+    {
+      "odors": [
+        9,
+        11
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.8343534469604492,
+      "sim_to_comp2": 0.6757643222808838,
+      "sim_to_linear_pred": 0.8816300630569458,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.262135970063255
+    },
+    {
+      "odors": [
+        9,
+        12
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.749221920967102,
+      "sim_to_comp2": 0.827111005783081,
+      "sim_to_linear_pred": 0.9349323511123657,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.250000009579318
+    },
+    {
+      "odors": [
+        9,
+        13
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8618494272232056,
+      "sim_to_comp2": 0.5259908437728882,
+      "sim_to_linear_pred": 0.8733152747154236,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3398058284788648
+    },
+    {
+      "odors": [
+        9,
+        14
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.8415184617042542,
+      "sim_to_comp2": 0.763687014579773,
+      "sim_to_linear_pred": 0.942112386226654,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.18867925597748
+    },
+    {
+      "odors": [
+        9,
+        15
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.8148607611656189,
+      "sim_to_comp2": 0.8480193018913269,
+      "sim_to_linear_pred": 0.865164041519165,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2037037213643391
+    },
+    {
+      "odors": [
+        9,
+        16
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.6621799468994141,
+      "sim_to_comp2": 0.877872884273529,
+      "sim_to_linear_pred": 0.8957434296607971,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3703703880310059
+    },
+    {
+      "odors": [
+        9,
+        17
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6812378764152527,
+      "sim_to_comp2": 0.8680151104927063,
+      "sim_to_linear_pred": 0.9623428583145142,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.375
+      ],
+      "suppression_ratio": 1.3457943985207923
+    },
+    {
+      "odors": [
+        9,
+        18
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.6739519238471985,
+      "sim_to_comp2": 0.8520097732543945,
+      "sim_to_linear_pred": 0.9183156490325928,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2293578277843464
+    },
+    {
+      "odors": [
+        9,
+        19
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.6520175933837891,
+      "sim_to_comp2": 0.8166569471359253,
+      "sim_to_linear_pred": 0.9616336226463318,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.3725489816588656
+    },
+    {
+      "odors": [
+        9,
+        20
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7859314680099487,
+      "sim_to_comp2": 0.6668589115142822,
+      "sim_to_linear_pred": 0.9551534652709961,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3125
+      ],
+      "suppression_ratio": 1.3673469843540726
+    },
+    {
+      "odors": [
+        9,
+        21
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7701944708824158,
+      "sim_to_comp2": 0.6822500824928284,
+      "sim_to_linear_pred": 0.9291337132453918,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3684211001832078
+    },
+    {
+      "odors": [
+        9,
+        22
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.6909476518630981,
+      "sim_to_comp2": 0.7700214385986328,
+      "sim_to_linear_pred": 0.9432682394981384,
+      "mix_sparsity": 0.5069444179534912,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.4174756868944745
+    },
+    {
+      "odors": [
+        9,
+        23
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.625791072845459,
+      "sim_to_comp2": 0.8826333284378052,
+      "sim_to_linear_pred": 0.9232229590415955,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.354166706713538
+    },
+    {
+      "odors": [
+        9,
+        24
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7668303847312927,
+      "sim_to_comp2": 0.6921396255493164,
+      "sim_to_linear_pred": 0.9376809000968933,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.346534602981656
+    },
+    {
+      "odors": [
+        9,
+        25
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8089007139205933,
+      "sim_to_comp2": 0.5873627066612244,
+      "sim_to_linear_pred": 0.8967049717903137,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.5257732305406122
+    },
+    {
+      "odors": [
+        9,
+        26
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7270989418029785,
+      "sim_to_comp2": 0.7688493728637695,
+      "sim_to_linear_pred": 0.9233226776123047,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.313725509170567
+    },
+    {
+      "odors": [
+        9,
+        27
+      ],
+      "odor_names": [
+        "benzaldehyde",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8376288414001465,
+      "sim_to_comp2": 0.6824194192886353,
+      "sim_to_linear_pred": 0.8987083435058594,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.4375
+      ],
+      "suppression_ratio": 1.1206896762218543
+    },
+    {
+      "odors": [
+        10,
+        11
+      ],
+      "odor_names": [
+        "acetophenone",
+        "2-methylphenol"
+      ],
+      "sim_to_comp1": 0.8378793001174927,
+      "sim_to_comp2": 0.7273271083831787,
+      "sim_to_linear_pred": 0.8983036875724792,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2352941522961267
+    },
+    {
+      "odors": [
+        10,
+        12
+      ],
+      "odor_names": [
+        "acetophenone",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.8462330102920532,
+      "sim_to_comp2": 0.8923559784889221,
+      "sim_to_linear_pred": 0.9455824494361877,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.2252252224387408
+    },
+    {
+      "odors": [
+        10,
+        13
+      ],
+      "odor_names": [
+        "acetophenone",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.8884531259536743,
+      "sim_to_comp2": 0.6501020193099976,
+      "sim_to_linear_pred": 0.8931950926780701,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.3137255644440808
+    },
+    {
+      "odors": [
+        10,
+        14
+      ],
+      "odor_names": [
+        "acetophenone",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.877418041229248,
+      "sim_to_comp2": 0.7499409914016724,
+      "sim_to_linear_pred": 0.9320316910743713,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.3523809617230682
+    },
+    {
+      "odors": [
+        10,
+        15
+      ],
+      "odor_names": [
+        "acetophenone",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.8385109901428223,
+      "sim_to_comp2": 0.6645470857620239,
+      "sim_to_linear_pred": 0.8677598237991333,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2897196051772268
+    },
+    {
+      "odors": [
+        10,
+        16
+      ],
+      "odor_names": [
+        "acetophenone",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.6596940159797668,
+      "sim_to_comp2": 0.8327524065971375,
+      "sim_to_linear_pred": 0.900071382522583,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3457943985207923
+    },
+    {
+      "odors": [
+        10,
+        17
+      ],
+      "odor_names": [
+        "acetophenone",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6604999899864197,
+      "sim_to_comp2": 0.8289555907249451,
+      "sim_to_linear_pred": 0.9547491073608398,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.375
+      ],
+      "suppression_ratio": 1.2641509907574113
+    },
+    {
+      "odors": [
+        10,
+        18
+      ],
+      "odor_names": [
+        "acetophenone",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.7286675572395325,
+      "sim_to_comp2": 0.8785709142684937,
+      "sim_to_linear_pred": 0.9669390320777893,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.314814805984497
+    },
+    {
+      "odors": [
+        10,
+        19
+      ],
+      "odor_names": [
+        "acetophenone",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.6726635694503784,
+      "sim_to_comp2": 0.8137394189834595,
+      "sim_to_linear_pred": 0.9592686891555786,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.4653465397018344
+    },
+    {
+      "odors": [
+        10,
+        20
+      ],
+      "odor_names": [
+        "acetophenone",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7808905839920044,
+      "sim_to_comp2": 0.8154235482215881,
+      "sim_to_linear_pred": 0.9821605682373047,
+      "mix_sparsity": 0.5208333134651184,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3125
+      ],
+      "suppression_ratio": 1.5463917087908057
+    },
+    {
+      "odors": [
+        10,
+        21
+      ],
+      "odor_names": [
+        "acetophenone",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7509098649024963,
+      "sim_to_comp2": 0.6662572622299194,
+      "sim_to_linear_pred": 0.889472246170044,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.4255319916322382
+    },
+    {
+      "odors": [
+        10,
+        22
+      ],
+      "odor_names": [
+        "acetophenone",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.6863507628440857,
+      "sim_to_comp2": 0.7283828258514404,
+      "sim_to_linear_pred": 0.9092271327972412,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.392156892444299
+    },
+    {
+      "odors": [
+        10,
+        23
+      ],
+      "odor_names": [
+        "acetophenone",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6042044758796692,
+      "sim_to_comp2": 0.8799201250076294,
+      "sim_to_linear_pred": 0.9358383417129517,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4947368620769472
+    },
+    {
+      "odors": [
+        10,
+        24
+      ],
+      "odor_names": [
+        "acetophenone",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7434380054473877,
+      "sim_to_comp2": 0.7419052124023438,
+      "sim_to_linear_pred": 0.9452149868011475,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.4199999836921693
+    },
+    {
+      "odors": [
+        10,
+        25
+      ],
+      "odor_names": [
+        "acetophenone",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.811320424079895,
+      "sim_to_comp2": 0.6405008435249329,
+      "sim_to_linear_pred": 0.9107550382614136,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3958333938693015
+    },
+    {
+      "odors": [
+        10,
+        26
+      ],
+      "odor_names": [
+        "acetophenone",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8061933517456055,
+      "sim_to_comp2": 0.7580046653747559,
+      "sim_to_linear_pred": 0.9563380479812622,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.346534602981656
+    },
+    {
+      "odors": [
+        10,
+        27
+      ],
+      "odor_names": [
+        "acetophenone",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8670313358306885,
+      "sim_to_comp2": 0.6839999556541443,
+      "sim_to_linear_pred": 0.9068644046783447,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3611111044883728,
+        0.4375
+      ],
+      "suppression_ratio": 1.217391297857793
+    },
+    {
+      "odors": [
+        11,
+        12
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "4-methoxybenzene"
+      ],
+      "sim_to_comp1": 0.8481377959251404,
+      "sim_to_comp2": 0.9551563262939453,
+      "sim_to_linear_pred": 0.9527136087417603,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.4097222089767456
+      ],
+      "suppression_ratio": 1.1743119764524679
+    },
+    {
+      "odors": [
+        11,
+        13
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.9179154634475708,
+      "sim_to_comp2": 0.7026202082633972,
+      "sim_to_linear_pred": 0.9359513521194458,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2400000377655043
+    },
+    {
+      "odors": [
+        11,
+        14
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.946257472038269,
+      "sim_to_comp2": 0.8903372287750244,
+      "sim_to_linear_pred": 0.9664016962051392,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2038835137534722
+    },
+    {
+      "odors": [
+        11,
+        15
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.7288054823875427,
+      "sim_to_comp2": 0.7084158062934875,
+      "sim_to_linear_pred": 0.9365745186805725,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2571429015179076
+    },
+    {
+      "odors": [
+        11,
+        16
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.5763317346572876,
+      "sim_to_comp2": 0.8359610438346863,
+      "sim_to_linear_pred": 0.94283127784729,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3333333333333333
+    },
+    {
+      "odors": [
+        11,
+        17
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6541874408721924,
+      "sim_to_comp2": 0.8107932806015015,
+      "sim_to_linear_pred": 0.9466465711593628,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.375
+      ],
+      "suppression_ratio": 1.326923073748865
+    },
+    {
+      "odors": [
+        11,
+        18
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.6163320541381836,
+      "sim_to_comp2": 0.8094944953918457,
+      "sim_to_linear_pred": 0.9371762275695801,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2075471896724628
+    },
+    {
+      "odors": [
+        11,
+        19
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7086583375930786,
+      "sim_to_comp2": 0.823351263999939,
+      "sim_to_linear_pred": 0.9604123830795288,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        11,
+        20
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7982531189918518,
+      "sim_to_comp2": 0.7291428446769714,
+      "sim_to_linear_pred": 0.9670551419258118,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3125
+      ],
+      "suppression_ratio": 1.3473684581429022
+    },
+    {
+      "odors": [
+        11,
+        21
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7237269878387451,
+      "sim_to_comp2": 0.7646840214729309,
+      "sim_to_linear_pred": 0.9331003427505493,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.434782691849205
+    },
+    {
+      "odors": [
+        11,
+        22
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.6904521584510803,
+      "sim_to_comp2": 0.7713648676872253,
+      "sim_to_linear_pred": 0.9250181317329407,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2400000377655043
+    },
+    {
+      "odors": [
+        11,
+        23
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6467423439025879,
+      "sim_to_comp2": 0.8751242756843567,
+      "sim_to_linear_pred": 0.9663619995117188,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.44086030039819
+    },
+    {
+      "odors": [
+        11,
+        24
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.8079769611358643,
+      "sim_to_comp2": 0.7453435659408569,
+      "sim_to_linear_pred": 0.9677945971488953,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.3673469843540726
+    },
+    {
+      "odors": [
+        11,
+        25
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.7761538028717041,
+      "sim_to_comp2": 0.6852035522460938,
+      "sim_to_linear_pred": 0.9402756094932556,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3404255659130169
+    },
+    {
+      "odors": [
+        11,
+        26
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7643391489982605,
+      "sim_to_comp2": 0.7132530212402344,
+      "sim_to_linear_pred": 0.9449968338012695,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        11,
+        27
+      ],
+      "odor_names": [
+        "2-methylphenol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8973486423492432,
+      "sim_to_comp2": 0.6387649178504944,
+      "sim_to_linear_pred": 0.9540382623672485,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.4375
+      ],
+      "suppression_ratio": 0.9911504760868862
+    },
+    {
+      "odors": [
+        12,
+        13
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "4-allyl-1,2-dimethoxybenzene"
+      ],
+      "sim_to_comp1": 0.9397944808006287,
+      "sim_to_comp2": 0.6849011778831482,
+      "sim_to_linear_pred": 0.9543668627738953,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1376147099631322
+    },
+    {
+      "odors": [
+        12,
+        14
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.9438737034797668,
+      "sim_to_comp2": 0.7936707735061646,
+      "sim_to_linear_pred": 0.9035893678665161,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.250000009579318
+    },
+    {
+      "odors": [
+        12,
+        15
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.7551564574241638,
+      "sim_to_comp2": 0.7239054441452026,
+      "sim_to_linear_pred": 0.9388887882232666,
+      "mix_sparsity": 0.5069444179534912,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.28070170353214
+    },
+    {
+      "odors": [
+        12,
+        16
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.670599102973938,
+      "sim_to_comp2": 0.8091018199920654,
+      "sim_to_linear_pred": 0.9565879702568054,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.298245647057052
+    },
+    {
+      "odors": [
+        12,
+        17
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.7310032844543457,
+      "sim_to_comp2": 0.7765488028526306,
+      "sim_to_linear_pred": 0.9552184343338013,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.375
+      ],
+      "suppression_ratio": 1.309734552260788
+    },
+    {
+      "odors": [
+        12,
+        18
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.5673379898071289,
+      "sim_to_comp2": 0.8755565881729126,
+      "sim_to_linear_pred": 0.9263244867324829,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2521739234275313
+    },
+    {
+      "odors": [
+        12,
+        19
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7084373831748962,
+      "sim_to_comp2": 0.8494802117347717,
+      "sim_to_linear_pred": 0.9644032716751099,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2962962786356609
+    },
+    {
+      "odors": [
+        12,
+        20
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.8073327541351318,
+      "sim_to_comp2": 0.7424412965774536,
+      "sim_to_linear_pred": 0.9753909707069397,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3125
+      ],
+      "suppression_ratio": 1.2884615987715649
+    },
+    {
+      "odors": [
+        12,
+        21
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7667433619499207,
+      "sim_to_comp2": 0.7307944893836975,
+      "sim_to_linear_pred": 0.9216618537902832,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3267327548826298
+    },
+    {
+      "odors": [
+        12,
+        22
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7090640664100647,
+      "sim_to_comp2": 0.831229031085968,
+      "sim_to_linear_pred": 0.9606229662895203,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.0825688102291287
+    },
+    {
+      "odors": [
+        12,
+        23
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.66849684715271,
+      "sim_to_comp2": 0.8736461400985718,
+      "sim_to_linear_pred": 0.9458937644958496,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3529411863703218
+    },
+    {
+      "odors": [
+        12,
+        24
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.839134693145752,
+      "sim_to_comp2": 0.7457059621810913,
+      "sim_to_linear_pred": 0.972065806388855,
+      "mix_sparsity": 0.5138888955116272,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.3831775940831692
+    },
+    {
+      "odors": [
+        12,
+        25
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.7990264892578125,
+      "sim_to_comp2": 0.7323054075241089,
+      "sim_to_linear_pred": 0.9717088341712952,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3203883430422705
+    },
+    {
+      "odors": [
+        12,
+        26
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8033117651939392,
+      "sim_to_comp2": 0.7039908766746521,
+      "sim_to_linear_pred": 0.9685519933700562,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2962962786356609
+    },
+    {
+      "odors": [
+        12,
+        27
+      ],
+      "odor_names": [
+        "4-methoxybenzene",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8973809480667114,
+      "sim_to_comp2": 0.7151897549629211,
+      "sim_to_linear_pred": 0.9612131118774414,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.4097222089767456,
+        0.4375
+      ],
+      "suppression_ratio": 1.1639344366094626
+    },
+    {
+      "odors": [
+        13,
+        14
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "4-methylphenol"
+      ],
+      "sim_to_comp1": 0.6751753091812134,
+      "sim_to_comp2": 0.8714719414710999,
+      "sim_to_linear_pred": 0.9564534425735474,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3680555522441864
+      ],
+      "suppression_ratio": 1.2038835137534722
+    },
+    {
+      "odors": [
+        13,
+        15
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.6384894847869873,
+      "sim_to_comp2": 0.829012930393219,
+      "sim_to_linear_pred": 0.8953776359558105,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.2571429015179076
+    },
+    {
+      "odors": [
+        13,
+        16
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.5412122011184692,
+      "sim_to_comp2": 0.9109753370285034,
+      "sim_to_linear_pred": 0.9281218647956848,
+      "mix_sparsity": 0.5069444179534912,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3904761367590242
+    },
+    {
+      "odors": [
+        13,
+        17
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.5651377439498901,
+      "sim_to_comp2": 0.9074122905731201,
+      "sim_to_linear_pred": 0.9165414571762085,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.375
+      ],
+      "suppression_ratio": 1.15384614749773
+    },
+    {
+      "odors": [
+        13,
+        18
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.4962322413921356,
+      "sim_to_comp2": 0.9283808469772339,
+      "sim_to_linear_pred": 0.9210197925567627,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2452830570624285
+    },
+    {
+      "odors": [
+        13,
+        19
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.6111149787902832,
+      "sim_to_comp2": 0.9230477213859558,
+      "sim_to_linear_pred": 0.9567541480064392,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        13,
+        20
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.6991937756538391,
+      "sim_to_comp2": 0.915003776550293,
+      "sim_to_linear_pred": 0.9407309293746948,
+      "mix_sparsity": 0.3819444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3125
+      ],
+      "suppression_ratio": 1.1578947701282456
+    },
+    {
+      "odors": [
+        13,
+        21
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7079823017120361,
+      "sim_to_comp2": 0.8758825659751892,
+      "sim_to_linear_pred": 0.9519597291946411,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2391305108376875
+    },
+    {
+      "odors": [
+        13,
+        22
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.6407660245895386,
+      "sim_to_comp2": 0.8739413619041443,
+      "sim_to_linear_pred": 0.9355065822601318,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2200000274658214
+    },
+    {
+      "odors": [
+        13,
+        23
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.47949326038360596,
+      "sim_to_comp2": 0.936736524105072,
+      "sim_to_linear_pred": 0.927902102470398,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.2903225895765547
+    },
+    {
+      "odors": [
+        13,
+        24
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.6332165002822876,
+      "sim_to_comp2": 0.8657573461532593,
+      "sim_to_linear_pred": 0.940194845199585,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.204081599586261
+    },
+    {
+      "odors": [
+        13,
+        25
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.7150384187698364,
+      "sim_to_comp2": 0.866900622844696,
+      "sim_to_linear_pred": 0.9445837736129761,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2765957466236009
+    },
+    {
+      "odors": [
+        13,
+        26
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7370405793190002,
+      "sim_to_comp2": 0.8788188695907593,
+      "sim_to_linear_pred": 0.9467747211456299,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        13,
+        27
+      ],
+      "odor_names": [
+        "4-allyl-1,2-dimethoxybenzene",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.898090124130249,
+      "sim_to_comp2": 0.8726288080215454,
+      "sim_to_linear_pred": 0.9658632278442383,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.4375
+      ],
+      "suppression_ratio": 1.1150442666086562
+    },
+    {
+      "odors": [
+        14,
+        15
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "1-butanol"
+      ],
+      "sim_to_comp1": 0.7193995118141174,
+      "sim_to_comp2": 0.7973535656929016,
+      "sim_to_linear_pred": 0.9474369883537292,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.1666666666666667
+    },
+    {
+      "odors": [
+        14,
+        16
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.5840349793434143,
+      "sim_to_comp2": 0.8391430377960205,
+      "sim_to_linear_pred": 0.9228524565696716,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.3333333333333333
+    },
+    {
+      "odors": [
+        14,
+        17
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.6723996996879578,
+      "sim_to_comp2": 0.8436352014541626,
+      "sim_to_linear_pred": 0.9430716633796692,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.375
+      ],
+      "suppression_ratio": 1.2336448920492586
+    },
+    {
+      "odors": [
+        14,
+        18
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.5444517731666565,
+      "sim_to_comp2": 0.8954892754554749,
+      "sim_to_linear_pred": 0.926841139793396,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2477063815628437
+    },
+    {
+      "odors": [
+        14,
+        19
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.67410808801651,
+      "sim_to_comp2": 0.8930501341819763,
+      "sim_to_linear_pred": 0.9619860649108887,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2745098047465464
+    },
+    {
+      "odors": [
+        14,
+        20
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.7526702880859375,
+      "sim_to_comp2": 0.8087929487228394,
+      "sim_to_linear_pred": 0.9667361974716187,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3125
+      ],
+      "suppression_ratio": 1.2653061188741903
+    },
+    {
+      "odors": [
+        14,
+        21
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7338200211524963,
+      "sim_to_comp2": 0.8311060667037964,
+      "sim_to_linear_pred": 0.9534584879875183,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2421052479413734
+    },
+    {
+      "odors": [
+        14,
+        22
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.68293696641922,
+      "sim_to_comp2": 0.8632293939590454,
+      "sim_to_linear_pred": 0.9488669633865356,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1262136553378628
+    },
+    {
+      "odors": [
+        14,
+        23
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6061133742332458,
+      "sim_to_comp2": 0.9162764549255371,
+      "sim_to_linear_pred": 0.9176572561264038,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3958333938693015
+    },
+    {
+      "odors": [
+        14,
+        24
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.7560960054397583,
+      "sim_to_comp2": 0.8567880392074585,
+      "sim_to_linear_pred": 0.9627288579940796,
+      "mix_sparsity": 0.5,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.4257425607951082
+    },
+    {
+      "odors": [
+        14,
+        25
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.769540011882782,
+      "sim_to_comp2": 0.7792311906814575,
+      "sim_to_linear_pred": 0.9676013588905334,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3402062184068957
+    },
+    {
+      "odors": [
+        14,
+        26
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7637785077095032,
+      "sim_to_comp2": 0.8010772466659546,
+      "sim_to_linear_pred": 0.9710203409194946,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.313725509170567
+    },
+    {
+      "odors": [
+        14,
+        27
+      ],
+      "odor_names": [
+        "4-methylphenol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8961610794067383,
+      "sim_to_comp2": 0.7003210783004761,
+      "sim_to_linear_pred": 0.950957179069519,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3680555522441864,
+        0.4375
+      ],
+      "suppression_ratio": 1.1034482886193058
+    },
+    {
+      "odors": [
+        15,
+        16
+      ],
+      "odor_names": [
+        "1-butanol",
+        "1-hexanol"
+      ],
+      "sim_to_comp1": 0.7389972805976868,
+      "sim_to_comp2": 0.9524824619293213,
+      "sim_to_linear_pred": 0.923426628112793,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3819444477558136
+      ],
+      "suppression_ratio": 1.145454535523722
+    },
+    {
+      "odors": [
+        15,
+        17
+      ],
+      "odor_names": [
+        "1-butanol",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.7559569478034973,
+      "sim_to_comp2": 0.9000040292739868,
+      "sim_to_linear_pred": 0.9635180830955505,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.375
+      ],
+      "suppression_ratio": 1.2477063815628437
+    },
+    {
+      "odors": [
+        15,
+        18
+      ],
+      "odor_names": [
+        "1-butanol",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.7477761507034302,
+      "sim_to_comp2": 0.9278843998908997,
+      "sim_to_linear_pred": 0.9384735822677612,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.2612612278234479
+    },
+    {
+      "odors": [
+        15,
+        19
+      ],
+      "odor_names": [
+        "1-butanol",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.7085850834846497,
+      "sim_to_comp2": 0.8659214377403259,
+      "sim_to_linear_pred": 0.9590170383453369,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2115384337641084
+    },
+    {
+      "odors": [
+        15,
+        20
+      ],
+      "odor_names": [
+        "1-butanol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.781417727470398,
+      "sim_to_comp2": 0.8234952688217163,
+      "sim_to_linear_pred": 0.9734357595443726,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3125
+      ],
+      "suppression_ratio": 1.3000000128746032
+    },
+    {
+      "odors": [
+        15,
+        21
+      ],
+      "odor_names": [
+        "1-butanol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.7903618812561035,
+      "sim_to_comp2": 0.682706892490387,
+      "sim_to_linear_pred": 0.8783045411109924,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2577319514651344
+    },
+    {
+      "odors": [
+        15,
+        22
+      ],
+      "odor_names": [
+        "1-butanol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7685521841049194,
+      "sim_to_comp2": 0.8262414336204529,
+      "sim_to_linear_pred": 0.9453516602516174,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.104761956143542
+    },
+    {
+      "odors": [
+        15,
+        23
+      ],
+      "odor_names": [
+        "1-butanol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.6952852606773376,
+      "sim_to_comp2": 0.9520156383514404,
+      "sim_to_linear_pred": 0.9509841799736023,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3265306381621198
+    },
+    {
+      "odors": [
+        15,
+        24
+      ],
+      "odor_names": [
+        "1-butanol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.8217254281044006,
+      "sim_to_comp2": 0.8060368299484253,
+      "sim_to_linear_pred": 0.968872606754303,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.2621359174758777
+    },
+    {
+      "odors": [
+        15,
+        25
+      ],
+      "odor_names": [
+        "1-butanol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.811484694480896,
+      "sim_to_comp2": 0.7740855813026428,
+      "sim_to_linear_pred": 0.9356580376625061,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        15,
+        26
+      ],
+      "odor_names": [
+        "1-butanol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8439635038375854,
+      "sim_to_comp2": 0.8675453662872314,
+      "sim_to_linear_pred": 0.9691841006278992,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2115384337641084
+    },
+    {
+      "odors": [
+        15,
+        27
+      ],
+      "odor_names": [
+        "1-butanol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.894589900970459,
+      "sim_to_comp2": 0.8441927433013916,
+      "sim_to_linear_pred": 0.9526826739311218,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.4375
+      ],
+      "suppression_ratio": 1.0169491241869315
+    },
+    {
+      "odors": [
+        16,
+        17
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "1-octen-3-ol"
+      ],
+      "sim_to_comp1": 0.9251025915145874,
+      "sim_to_comp2": 0.8627669215202332,
+      "sim_to_linear_pred": 0.9429634809494019,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.375
+      ],
+      "suppression_ratio": 1.2660550140850915
+    },
+    {
+      "odors": [
+        16,
+        18
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.8851945400238037,
+      "sim_to_comp2": 0.9345405101776123,
+      "sim_to_linear_pred": 0.952144980430603,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.1531531468835632
+    },
+    {
+      "odors": [
+        16,
+        19
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.9182614684104919,
+      "sim_to_comp2": 0.8250757455825806,
+      "sim_to_linear_pred": 0.9435716867446899,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.3076922410338603
+    },
+    {
+      "odors": [
+        16,
+        20
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.9231570363044739,
+      "sim_to_comp2": 0.7153340578079224,
+      "sim_to_linear_pred": 0.9740689992904663,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3125
+      ],
+      "suppression_ratio": 1.3400000317573546
+    },
+    {
+      "odors": [
+        16,
+        21
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.9115056991577148,
+      "sim_to_comp2": 0.588079035282135,
+      "sim_to_linear_pred": 0.9070299863815308,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.4432989635988507
+    },
+    {
+      "odors": [
+        16,
+        22
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.8641992211341858,
+      "sim_to_comp2": 0.744236946105957,
+      "sim_to_linear_pred": 0.9354467988014221,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1809523879589678
+    },
+    {
+      "odors": [
+        16,
+        23
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.8847558498382568,
+      "sim_to_comp2": 0.9120814800262451,
+      "sim_to_linear_pred": 0.9760111570358276,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3265306381621198
+    },
+    {
+      "odors": [
+        16,
+        24
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.9259698390960693,
+      "sim_to_comp2": 0.7000488042831421,
+      "sim_to_linear_pred": 0.948123574256897,
+      "mix_sparsity": 0.4930555522441864,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.3786407419104578
+    },
+    {
+      "odors": [
+        16,
+        25
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.9164379835128784,
+      "sim_to_comp2": 0.6091494560241699,
+      "sim_to_linear_pred": 0.8958147168159485,
+      "mix_sparsity": 0.4791666567325592,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3939393650401721
+    },
+    {
+      "odors": [
+        16,
+        26
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.9020544290542603,
+      "sim_to_comp2": 0.7543030977249146,
+      "sim_to_linear_pred": 0.9461085200309753,
+      "mix_sparsity": 0.4861111044883728,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.3461537969535635
+    },
+    {
+      "odors": [
+        16,
+        27
+      ],
+      "odor_names": [
+        "1-hexanol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9626785516738892,
+      "sim_to_comp2": 0.6732140183448792,
+      "sim_to_linear_pred": 0.9421445727348328,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.3819444477558136,
+        0.4375
+      ],
+      "suppression_ratio": 1.1355932480780018
+    },
+    {
+      "odors": [
+        17,
+        18
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "1-heptanol"
+      ],
+      "sim_to_comp1": 0.7759196758270264,
+      "sim_to_comp2": 0.9426555037498474,
+      "sim_to_linear_pred": 0.9646182656288147,
+      "mix_sparsity": 0.4652777910232544,
+      "comp_sparsities": [
+        0.375,
+        0.3888888955116272
+      ],
+      "suppression_ratio": 1.218181842299532
+    },
+    {
+      "odors": [
+        17,
+        19
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.9109390377998352,
+      "sim_to_comp2": 0.9455047249794006,
+      "sim_to_linear_pred": 0.9528590440750122,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.375,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1262136084137406
+    },
+    {
+      "odors": [
+        17,
+        20
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.8771435022354126,
+      "sim_to_comp2": 0.6830536723136902,
+      "sim_to_linear_pred": 0.9740934371948242,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.375,
+        0.3125
+      ],
+      "suppression_ratio": 1.2121211832219905
+    },
+    {
+      "odors": [
+        17,
+        21
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.8818988800048828,
+      "sim_to_comp2": 0.6715133190155029,
+      "sim_to_linear_pred": 0.932233989238739,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.375,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3125000195577743
+    },
+    {
+      "odors": [
+        17,
+        22
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.8334632515907288,
+      "sim_to_comp2": 0.7873213291168213,
+      "sim_to_linear_pred": 0.9524321556091309,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.375,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.1923077050045399
+    },
+    {
+      "odors": [
+        17,
+        23
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.8968634605407715,
+      "sim_to_comp2": 0.9484423398971558,
+      "sim_to_linear_pred": 0.9689275622367859,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.375,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3402062184068957
+    },
+    {
+      "odors": [
+        17,
+        24
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.8864506483078003,
+      "sim_to_comp2": 0.7806901931762695,
+      "sim_to_linear_pred": 0.9375075101852417,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.375,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.2156862481105153
+    },
+    {
+      "odors": [
+        17,
+        25
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.9169215559959412,
+      "sim_to_comp2": 0.7003011107444763,
+      "sim_to_linear_pred": 0.9671006202697754,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.375,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2244897726822375
+    },
+    {
+      "odors": [
+        17,
+        26
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8671345710754395,
+      "sim_to_comp2": 0.7612975835800171,
+      "sim_to_linear_pred": 0.960437536239624,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.375,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.087378639158626
+    },
+    {
+      "odors": [
+        17,
+        27
+      ],
+      "odor_names": [
+        "1-octen-3-ol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.947035014629364,
+      "sim_to_comp2": 0.7560392022132874,
+      "sim_to_linear_pred": 0.9624589085578918,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.375,
+        0.4375
+      ],
+      "suppression_ratio": 1.0769230769230769
+    },
+    {
+      "odors": [
+        18,
+        19
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "3-octanol"
+      ],
+      "sim_to_comp1": 0.9045909643173218,
+      "sim_to_comp2": 0.8199177980422974,
+      "sim_to_linear_pred": 0.9699101448059082,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1809523396913708
+    },
+    {
+      "odors": [
+        18,
+        20
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.9775047302246094,
+      "sim_to_comp2": 0.7793341875076294,
+      "sim_to_linear_pred": 0.9516061544418335,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3125
+      ],
+      "suppression_ratio": 1.2277227512423567
+    },
+    {
+      "odors": [
+        18,
+        21
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.8605502247810364,
+      "sim_to_comp2": 0.6412696838378906,
+      "sim_to_linear_pred": 0.9556567668914795,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.2653061188741903
+    },
+    {
+      "odors": [
+        18,
+        22
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.8389664888381958,
+      "sim_to_comp2": 0.7736427783966064,
+      "sim_to_linear_pred": 0.9633766412734985,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.18867925597748
+    },
+    {
+      "odors": [
+        18,
+        23
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.933708906173706,
+      "sim_to_comp2": 0.8754528760910034,
+      "sim_to_linear_pred": 0.9805992841720581,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.2727272727272727
+    },
+    {
+      "odors": [
+        18,
+        24
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.9271117448806763,
+      "sim_to_comp2": 0.7610136270523071,
+      "sim_to_linear_pred": 0.9655093550682068,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.1730768778444052
+    },
+    {
+      "odors": [
+        18,
+        25
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8876582384109497,
+      "sim_to_comp2": 0.6497606635093689,
+      "sim_to_linear_pred": 0.9504440426826477,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2199999751091004
+    },
+    {
+      "odors": [
+        18,
+        26
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.9597469568252563,
+      "sim_to_comp2": 0.8280446529388428,
+      "sim_to_linear_pred": 0.9620256423950195,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.161904712080146
+    },
+    {
+      "odors": [
+        18,
+        27
+      ],
+      "odor_names": [
+        "1-heptanol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9534834027290344,
+      "sim_to_comp2": 0.6039360761642456,
+      "sim_to_linear_pred": 0.9275259971618652,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3888888955116272,
+        0.4375
+      ],
+      "suppression_ratio": 1.0756302514947342
+    },
+    {
+      "odors": [
+        19,
+        20
+      ],
+      "odor_names": [
+        "3-octanol",
+        "1-nonanol"
+      ],
+      "sim_to_comp1": 0.8640738725662231,
+      "sim_to_comp2": 0.7490162253379822,
+      "sim_to_linear_pred": 0.9750473499298096,
+      "mix_sparsity": 0.4722222089767456,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.3125
+      ],
+      "suppression_ratio": 1.4468084406993047
+    },
+    {
+      "odors": [
+        19,
+        21
+      ],
+      "odor_names": [
+        "3-octanol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.937503457069397,
+      "sim_to_comp2": 0.7308824062347412,
+      "sim_to_linear_pred": 0.9417871236801147,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3186812803316574
+    },
+    {
+      "odors": [
+        19,
+        22
+      ],
+      "odor_names": [
+        "3-octanol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.9369613528251648,
+      "sim_to_comp2": 0.7689151763916016,
+      "sim_to_linear_pred": 0.9452857971191406,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.292929302562367
+    },
+    {
+      "odors": [
+        19,
+        23
+      ],
+      "odor_names": [
+        "3-octanol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.9244672060012817,
+      "sim_to_comp2": 0.9332667589187622,
+      "sim_to_linear_pred": 0.9552412033081055,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.3043477814679791
+    },
+    {
+      "odors": [
+        19,
+        24
+      ],
+      "odor_names": [
+        "3-octanol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.944057822227478,
+      "sim_to_comp2": 0.8395112752914429,
+      "sim_to_linear_pred": 0.9500678777694702,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.216494764173334
+    },
+    {
+      "odors": [
+        19,
+        25
+      ],
+      "odor_names": [
+        "3-octanol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.9209423065185547,
+      "sim_to_comp2": 0.7353479266166687,
+      "sim_to_linear_pred": 0.9421346187591553,
+      "mix_sparsity": 0.4513888955116272,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3978494613732144
+    },
+    {
+      "odors": [
+        19,
+        26
+      ],
+      "odor_names": [
+        "3-octanol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8929990530014038,
+      "sim_to_comp2": 0.7764838933944702,
+      "sim_to_linear_pred": 0.9789708256721497,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2653060634649602
+    },
+    {
+      "odors": [
+        19,
+        27
+      ],
+      "odor_names": [
+        "3-octanol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9553775787353516,
+      "sim_to_comp2": 0.7580738663673401,
+      "sim_to_linear_pred": 0.9748366475105286,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.4375
+      ],
+      "suppression_ratio": 1.1249999808413644
+    },
+    {
+      "odors": [
+        20,
+        21
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "ethyl acetate"
+      ],
+      "sim_to_comp1": 0.779009222984314,
+      "sim_to_comp2": 0.7920636534690857,
+      "sim_to_linear_pred": 0.958570122718811,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3125,
+        0.2916666567325592
+      ],
+      "suppression_ratio": 1.3103448820170844
+    },
+    {
+      "odors": [
+        20,
+        22
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.794529914855957,
+      "sim_to_comp2": 0.8693437576293945,
+      "sim_to_linear_pred": 0.9760487079620361,
+      "mix_sparsity": 0.3680555522441864,
+      "comp_sparsities": [
+        0.3125,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.115789486047634
+    },
+    {
+      "odors": [
+        20,
+        23
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.7384637594223022,
+      "sim_to_comp2": 0.9147432446479797,
+      "sim_to_linear_pred": 0.9795129299163818,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3125,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4090909135243124
+    },
+    {
+      "odors": [
+        20,
+        24
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.8240253329277039,
+      "sim_to_comp2": 0.8712144494056702,
+      "sim_to_linear_pred": 0.9678544402122498,
+      "mix_sparsity": 0.4583333432674408,
+      "comp_sparsities": [
+        0.3125,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.4193548476410704
+    },
+    {
+      "odors": [
+        20,
+        25
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8261553049087524,
+      "sim_to_comp2": 0.7796019315719604,
+      "sim_to_linear_pred": 0.9585338830947876,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3125,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3483145818191409
+    },
+    {
+      "odors": [
+        20,
+        26
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.9405038952827454,
+      "sim_to_comp2": 0.9422671794891357,
+      "sim_to_linear_pred": 0.9686243534088135,
+      "mix_sparsity": 0.375,
+      "comp_sparsities": [
+        0.3125,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.1489361468997683
+    },
+    {
+      "odors": [
+        20,
+        27
+      ],
+      "odor_names": [
+        "1-nonanol",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8927908539772034,
+      "sim_to_comp2": 0.8208631277084351,
+      "sim_to_linear_pred": 0.9464356899261475,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3125,
+        0.4375
+      ],
+      "suppression_ratio": 1.1666666666666667
+    },
+    {
+      "odors": [
+        21,
+        22
+      ],
+      "odor_names": [
+        "ethyl acetate",
+        "propyl acetate"
+      ],
+      "sim_to_comp1": 0.7973268628120422,
+      "sim_to_comp2": 0.8763036727905273,
+      "sim_to_linear_pred": 0.8458500504493713,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3472222089767456
+      ],
+      "suppression_ratio": 1.2826087007225124
+    },
+    {
+      "odors": [
+        21,
+        23
+      ],
+      "odor_names": [
+        "ethyl acetate",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.7461313605308533,
+      "sim_to_comp2": 0.8941681385040283,
+      "sim_to_linear_pred": 0.9460039734840393,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.4352941354665794
+    },
+    {
+      "odors": [
+        21,
+        24
+      ],
+      "odor_names": [
+        "ethyl acetate",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.8449978828430176,
+      "sim_to_comp2": 0.9413679838180542,
+      "sim_to_linear_pred": 0.9370452165603638,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.311111068725586
+    },
+    {
+      "odors": [
+        21,
+        25
+      ],
+      "odor_names": [
+        "ethyl acetate",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8845013976097107,
+      "sim_to_comp2": 0.8900123834609985,
+      "sim_to_linear_pred": 0.8976344466209412,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.441860486005306
+    },
+    {
+      "odors": [
+        21,
+        26
+      ],
+      "odor_names": [
+        "ethyl acetate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7658394575119019,
+      "sim_to_comp2": 0.8518141508102417,
+      "sim_to_linear_pred": 0.9602458477020264,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.274725309965504
+    },
+    {
+      "odors": [
+        21,
+        27
+      ],
+      "odor_names": [
+        "ethyl acetate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8767406344413757,
+      "sim_to_comp2": 0.9028472304344177,
+      "sim_to_linear_pred": 0.960571825504303,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.2916666567325592,
+        0.4375
+      ],
+      "suppression_ratio": 1.142857131179498
+    },
+    {
+      "odors": [
+        22,
+        23
+      ],
+      "odor_names": [
+        "propyl acetate",
+        "pentyl acetate"
+      ],
+      "sim_to_comp1": 0.8296601176261902,
+      "sim_to_comp2": 0.8865776658058167,
+      "sim_to_linear_pred": 0.9579588174819946,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.2986111044883728
+      ],
+      "suppression_ratio": 1.376344138617489
+    },
+    {
+      "odors": [
+        22,
+        24
+      ],
+      "odor_names": [
+        "propyl acetate",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.9015177488327026,
+      "sim_to_comp2": 0.932360827922821,
+      "sim_to_linear_pred": 0.9449500441551208,
+      "mix_sparsity": 0.375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.1020408216887145
+    },
+    {
+      "odors": [
+        22,
+        25
+      ],
+      "odor_names": [
+        "propyl acetate",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.8853972554206848,
+      "sim_to_comp2": 0.8017100691795349,
+      "sim_to_linear_pred": 0.8556062579154968,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3404255659130169
+    },
+    {
+      "odors": [
+        22,
+        26
+      ],
+      "odor_names": [
+        "propyl acetate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8802145719528198,
+      "sim_to_comp2": 0.8142131567001343,
+      "sim_to_linear_pred": 0.9611857533454895,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2121211832219905
+    },
+    {
+      "odors": [
+        22,
+        27
+      ],
+      "odor_names": [
+        "propyl acetate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8963308334350586,
+      "sim_to_comp2": 0.9030739665031433,
+      "sim_to_linear_pred": 0.9707506895065308,
+      "mix_sparsity": 0.3958333432674408,
+      "comp_sparsities": [
+        0.3472222089767456,
+        0.4375
+      ],
+      "suppression_ratio": 1.0088495998694766
+    },
+    {
+      "odors": [
+        23,
+        24
+      ],
+      "odor_names": [
+        "pentyl acetate",
+        "isopentyl acetate"
+      ],
+      "sim_to_comp1": 0.9398633241653442,
+      "sim_to_comp2": 0.8932541012763977,
+      "sim_to_linear_pred": 0.9568259716033936,
+      "mix_sparsity": 0.4444444477558136,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3333333432674408
+      ],
+      "suppression_ratio": 1.4065934097028385
+    },
+    {
+      "odors": [
+        23,
+        25
+      ],
+      "odor_names": [
+        "pentyl acetate",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.9157787561416626,
+      "sim_to_comp2": 0.6932821273803711,
+      "sim_to_linear_pred": 0.9515764713287354,
+      "mix_sparsity": 0.4166666567325592,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.3793103346217968
+    },
+    {
+      "odors": [
+        23,
+        26
+      ],
+      "odor_names": [
+        "pentyl acetate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.9404394626617432,
+      "sim_to_comp2": 0.7710427641868591,
+      "sim_to_linear_pred": 0.9689379334449768,
+      "mix_sparsity": 0.4027777910232544,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2608695936112861
+    },
+    {
+      "odors": [
+        23,
+        27
+      ],
+      "odor_names": [
+        "pentyl acetate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9457160830497742,
+      "sim_to_comp2": 0.7446742653846741,
+      "sim_to_linear_pred": 0.9570133686065674,
+      "mix_sparsity": 0.4236111044883728,
+      "comp_sparsities": [
+        0.2986111044883728,
+        0.4375
+      ],
+      "suppression_ratio": 1.1509433885875142
+    },
+    {
+      "odors": [
+        24,
+        25
+      ],
+      "odor_names": [
+        "isopentyl acetate",
+        "ethyl butyrate"
+      ],
+      "sim_to_comp1": 0.9349164962768555,
+      "sim_to_comp2": 0.8158084154129028,
+      "sim_to_linear_pred": 0.9422351717948914,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3333333432674408,
+        0.3055555522441864
+      ],
+      "suppression_ratio": 1.2826086408925197
+    },
+    {
+      "odors": [
+        24,
+        26
+      ],
+      "odor_names": [
+        "isopentyl acetate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.8963428735733032,
+      "sim_to_comp2": 0.8551025390625,
+      "sim_to_linear_pred": 0.976662278175354,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3333333432674408,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.2783504616429966
+    },
+    {
+      "odors": [
+        24,
+        27
+      ],
+      "odor_names": [
+        "isopentyl acetate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9086074829101562,
+      "sim_to_comp2": 0.8611294627189636,
+      "sim_to_linear_pred": 0.9636071920394897,
+      "mix_sparsity": 0.4305555522441864,
+      "comp_sparsities": [
+        0.3333333432674408,
+        0.4375
+      ],
+      "suppression_ratio": 1.1171170941286204
+    },
+    {
+      "odors": [
+        25,
+        26
+      ],
+      "odor_names": [
+        "ethyl butyrate",
+        "octyl acetate"
+      ],
+      "sim_to_comp1": 0.7805806994438171,
+      "sim_to_comp2": 0.8597846031188965,
+      "sim_to_linear_pred": 0.950900137424469,
+      "mix_sparsity": 0.4375,
+      "comp_sparsities": [
+        0.3055555522441864,
+        0.3402777910232544
+      ],
+      "suppression_ratio": 1.3548386888375024
+    },
+    {
+      "odors": [
+        25,
+        27
+      ],
+      "odor_names": [
+        "ethyl butyrate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.8460298776626587,
+      "sim_to_comp2": 0.8605970144271851,
+      "sim_to_linear_pred": 0.9204801917076111,
+      "mix_sparsity": 0.3888888955116272,
+      "comp_sparsities": [
+        0.3055555522441864,
+        0.4375
+      ],
+      "suppression_ratio": 1.0467289944529712
+    },
+    {
+      "odors": [
+        26,
+        27
+      ],
+      "odor_names": [
+        "octyl acetate",
+        "carbon dioxide"
+      ],
+      "sim_to_comp1": 0.9443743228912354,
+      "sim_to_comp2": 0.8513227105140686,
+      "sim_to_linear_pred": 0.9644584655761719,
+      "mix_sparsity": 0.4097222089767456,
+      "comp_sparsities": [
+        0.3402777910232544,
+        0.4375
+      ],
+      "suppression_ratio": 1.053571376569418
+    }
+  ],
+  "triplet_results": [
+    {
+      "odors": [
+        9,
+        10,
+        23
+      ],
+      "sim_to_linear_pred": 0.80306476354599,
+      "mix_sparsity": 0.4930555522441864,
+      "suppression_ratio": 1.439189202707993
+    },
+    {
+      "odors": [
+        2,
+        11,
+        16
+      ],
+      "sim_to_linear_pred": 0.8906336426734924,
+      "mix_sparsity": 0.5972222089767456,
+      "suppression_ratio": 1.5925925572713215
+    },
+    {
+      "odors": [
+        3,
+        5,
+        21
+      ],
+      "sim_to_linear_pred": 0.8607372641563416,
+      "mix_sparsity": 0.4652777910232544,
+      "suppression_ratio": 1.386206972482799
+    },
+    {
+      "odors": [
+        7,
+        12,
+        21
+      ],
+      "sim_to_linear_pred": 0.8458347320556641,
+      "mix_sparsity": 0.5138888955116272,
+      "suppression_ratio": 1.4230769675158899
+    },
+    {
+      "odors": [
+        13,
+        15,
+        17
+      ],
+      "sim_to_linear_pred": 0.8720488548278809,
+      "mix_sparsity": 0.5,
+      "suppression_ratio": 1.3584905782599772
+    },
+    {
+      "odors": [
+        17,
+        18,
+        19
+      ],
+      "sim_to_linear_pred": 0.942935585975647,
+      "mix_sparsity": 0.4652777910232544,
+      "suppression_ratio": 1.2641509566369873
+    },
+    {
+      "odors": [
+        6,
+        12,
+        14
+      ],
+      "sim_to_linear_pred": 0.8403648734092712,
+      "mix_sparsity": 0.5138888955116272,
+      "suppression_ratio": 1.4322581138174206
+    },
+    {
+      "odors": [
+        2,
+        5,
+        8
+      ],
+      "sim_to_linear_pred": 0.8990297317504883,
+      "mix_sparsity": 0.4930555522441864,
+      "suppression_ratio": 1.4295302100409464
+    },
+    {
+      "odors": [
+        1,
+        9,
+        16
+      ],
+      "sim_to_linear_pred": 0.8459343910217285,
+      "mix_sparsity": 0.5625,
+      "suppression_ratio": 1.5283019005424743
+    },
+    {
+      "odors": [
+        0,
+        4,
+        16
+      ],
+      "sim_to_linear_pred": 0.8807730674743652,
+      "mix_sparsity": 0.5,
+      "suppression_ratio": 1.2857142638187022
+    },
+    {
+      "odors": [
+        2,
+        20,
+        21
+      ],
+      "sim_to_linear_pred": 0.9033007621765137,
+      "mix_sparsity": 0.4513888955116272,
+      "suppression_ratio": 1.3541666865348816
+    },
+    {
+      "odors": [
+        1,
+        17,
+        27
+      ],
+      "sim_to_linear_pred": 0.9037637114524841,
+      "mix_sparsity": 0.5069444179534912,
+      "suppression_ratio": 1.3035713715516788
+    },
+    {
+      "odors": [
+        14,
+        19,
+        24
+      ],
+      "sim_to_linear_pred": 0.9239078760147095,
+      "mix_sparsity": 0.5208333134651184,
+      "suppression_ratio": 1.4999999141693132
+    },
+    {
+      "odors": [
+        19,
+        23,
+        25
+      ],
+      "sim_to_linear_pred": 0.9350160360336304,
+      "mix_sparsity": 0.4791666567325592,
+      "suppression_ratio": 1.5220587866374367
+    },
+    {
+      "odors": [
+        3,
+        20,
+        26
+      ],
+      "sim_to_linear_pred": 0.9242362380027771,
+      "mix_sparsity": 0.4861111044883728,
+      "suppression_ratio": 1.4285713952067298
+    },
+    {
+      "odors": [
+        6,
+        11,
+        12
+      ],
+      "sim_to_linear_pred": 0.8070141673088074,
+      "mix_sparsity": 0.5069444179534912,
+      "suppression_ratio": 1.4407894435929451
+    },
+    {
+      "odors": [
+        0,
+        4,
+        18
+      ],
+      "sim_to_linear_pred": 0.9657164812088013,
+      "mix_sparsity": 0.5138888955116272,
+      "suppression_ratio": 1.3136094584401086
+    },
+    {
+      "odors": [
+        2,
+        12,
+        16
+      ],
+      "sim_to_linear_pred": 0.9038708209991455,
+      "mix_sparsity": 0.5486111044883728,
+      "suppression_ratio": 1.3859648955495734
+    },
+    {
+      "odors": [
+        3,
+        12,
+        23
+      ],
+      "sim_to_linear_pred": 0.9290904998779297,
+      "mix_sparsity": 0.5555555820465088,
+      "suppression_ratio": 1.5483872039509141
+    },
+    {
+      "odors": [
+        12,
+        15,
+        16
+      ],
+      "sim_to_linear_pred": 0.8967124223709106,
+      "mix_sparsity": 0.5902777910232544,
+      "suppression_ratio": 1.5088757820178815
+    },
+    {
+      "odors": [
+        1,
+        4,
+        11
+      ],
+      "sim_to_linear_pred": 0.8446561098098755,
+      "mix_sparsity": 0.5416666865348816,
+      "suppression_ratio": 1.481012730429598
+    },
+    {
+      "odors": [
+        5,
+        20,
+        25
+      ],
+      "sim_to_linear_pred": 0.8939365744590759,
+      "mix_sparsity": 0.4930555522441864,
+      "suppression_ratio": 1.532374116711893
+    },
+    {
+      "odors": [
+        1,
+        21,
+        27
+      ],
+      "sim_to_linear_pred": 0.8410024642944336,
+      "mix_sparsity": 0.4722222089767456,
+      "suppression_ratio": 1.3076922949954601
+    },
+    {
+      "odors": [
+        16,
+        17,
+        23
+      ],
+      "sim_to_linear_pred": 0.9352114796638489,
+      "mix_sparsity": 0.5347222089767456,
+      "suppression_ratio": 1.5197368092277703
+    },
+    {
+      "odors": [
+        0,
+        5,
+        8
+      ],
+      "sim_to_linear_pred": 0.9007384777069092,
+      "mix_sparsity": 0.5277777910232544,
+      "suppression_ratio": 1.5405406040201415
+    },
+    {
+      "odors": [
+        1,
+        25,
+        27
+      ],
+      "sim_to_linear_pred": 0.8211304545402527,
+      "mix_sparsity": 0.4861111044883728,
+      "suppression_ratio": 1.329113921987726
+    },
+    {
+      "odors": [
+        3,
+        7,
+        15
+      ],
+      "sim_to_linear_pred": 0.8677237629890442,
+      "mix_sparsity": 0.5138888955116272,
+      "suppression_ratio": 1.3619632037520752
+    },
+    {
+      "odors": [
+        0,
+        19,
+        24
+      ],
+      "sim_to_linear_pred": 0.9166321754455566,
+      "mix_sparsity": 0.4652777910232544,
+      "suppression_ratio": 1.3137254907460636
+    },
+    {
+      "odors": [
+        3,
+        12,
+        25
+      ],
+      "sim_to_linear_pred": 0.9012828469276428,
+      "mix_sparsity": 0.5277777910232544,
+      "suppression_ratio": 1.4615385250226998
+    },
+    {
+      "odors": [
+        11,
+        22,
+        23
+      ],
+      "sim_to_linear_pred": 0.9160599112510681,
+      "mix_sparsity": 0.4861111044883728,
+      "suppression_ratio": 1.4685314974928736
+    },
+    {
+      "odors": [
+        5,
+        15,
+        25
+      ],
+      "sim_to_linear_pred": 0.8736494779586792,
+      "mix_sparsity": 0.4791666567325592,
+      "suppression_ratio": 1.3892617339481346
+    },
+    {
+      "odors": [
+        19,
+        20,
+        25
+      ],
+      "sim_to_linear_pred": 0.9135426878929138,
+      "mix_sparsity": 0.4652777910232544,
+      "suppression_ratio": 1.4565217654961942
+    },
+    {
+      "odors": [
+        0,
+        2,
+        18
+      ],
+      "sim_to_linear_pred": 0.9135113954544067,
+      "mix_sparsity": 0.5,
+      "suppression_ratio": 1.2781064836323037
+    },
+    {
+      "odors": [
+        10,
+        13,
+        26
+      ],
+      "sim_to_linear_pred": 0.9162706136703491,
+      "mix_sparsity": 0.5138888955116272,
+      "suppression_ratio": 1.47019870372923
+    },
+    {
+      "odors": [
+        6,
+        8,
+        23
+      ],
+      "sim_to_linear_pred": 0.8926099538803101,
+      "mix_sparsity": 0.5,
+      "suppression_ratio": 1.687500044004993
+    },
+    {
+      "odors": [
+        2,
+        12,
+        14
+      ],
+      "sim_to_linear_pred": 0.8904973268508911,
+      "mix_sparsity": 0.5069444179534912,
+      "suppression_ratio": 1.2958579277617432
+    },
+    {
+      "odors": [
+        3,
+        12,
+        26
+      ],
+      "sim_to_linear_pred": 0.9571263790130615,
+      "mix_sparsity": 0.5208333134651184,
+      "suppression_ratio": 1.3975154787783757
+    },
+    {
+      "odors": [
+        4,
+        15,
+        25
+      ],
+      "sim_to_linear_pred": 0.8239032626152039,
+      "mix_sparsity": 0.5208333134651184,
+      "suppression_ratio": 1.442307624062138
+    },
+    {
+      "odors": [
+        2,
+        19,
+        22
+      ],
+      "sim_to_linear_pred": 0.88377445936203,
+      "mix_sparsity": 0.4583333432674408,
+      "suppression_ratio": 1.2692307851018283
+    },
+    {
+      "odors": [
+        0,
+        18,
+        19
+      ],
+      "sim_to_linear_pred": 0.9496806859970093,
+      "mix_sparsity": 0.4722222089767456,
+      "suppression_ratio": 1.2670806797790366
+    },
+    {
+      "odors": [
+        4,
+        8,
+        21
+      ],
+      "sim_to_linear_pred": 0.8712285757064819,
+      "mix_sparsity": 0.4861111044883728,
+      "suppression_ratio": 1.4893616969469934
+    },
+    {
+      "odors": [
+        0,
+        3,
+        18
+      ],
+      "sim_to_linear_pred": 0.8670344352722168,
+      "mix_sparsity": 0.5,
+      "suppression_ratio": 1.3090908977413966
+    },
+    {
+      "odors": [
+        3,
+        6,
+        8
+      ],
+      "sim_to_linear_pred": 0.9086102247238159,
+      "mix_sparsity": 0.5069444179534912,
+      "suppression_ratio": 1.5869564717117906
+    },
+    {
+      "odors": [
+        3,
+        23,
+        25
+      ],
+      "sim_to_linear_pred": 0.9131468534469604,
+      "mix_sparsity": 0.4930555522441864,
+      "suppression_ratio": 1.5214285819384517
+    },
+    {
+      "odors": [
+        0,
+        6,
+        12
+      ],
+      "sim_to_linear_pred": 0.8912403583526611,
+      "mix_sparsity": 0.5416666865348816,
+      "suppression_ratio": 1.481012730429598
+    },
+    {
+      "odors": [
+        3,
+        16,
+        19
+      ],
+      "sim_to_linear_pred": 0.9455054998397827,
+      "mix_sparsity": 0.5208333134651184,
+      "suppression_ratio": 1.4331209470284707
+    },
+    {
+      "odors": [
+        7,
+        8,
+        10
+      ],
+      "sim_to_linear_pred": 0.8508034944534302,
+      "mix_sparsity": 0.5138888955116272,
+      "suppression_ratio": 1.4899329241801642
+    },
+    {
+      "odors": [
+        6,
+        12,
+        15
+      ],
+      "sim_to_linear_pred": 0.8691362142562866,
+      "mix_sparsity": 0.5416666865348816,
+      "suppression_ratio": 1.4904459371755978
+    },
+    {
+      "odors": [
+        13,
+        23,
+        27
+      ],
+      "sim_to_linear_pred": 0.9237862825393677,
+      "mix_sparsity": 0.4930555522441864,
+      "suppression_ratio": 1.365384631255675
+    },
+    {
+      "odors": [
+        0,
+        18,
+        20
+      ],
+      "sim_to_linear_pred": 0.9162629842758179,
+      "mix_sparsity": 0.4375,
+      "suppression_ratio": 1.2038216414260665
+    }
+  ]
+}

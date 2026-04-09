@@ -1,0 +1,137 @@
+{
+  "n_seeds": 5,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "per_seed": [
+    {
+      "seed": 42,
+      "n_individual_odors": 28,
+      "n_2odor_mixtures": 378,
+      "n_3odor_mixtures": 50,
+      "pair_sim_to_components_mean": 0.8022743141446164,
+      "pair_sim_to_components_std": 0.05735270028900808,
+      "pair_sim_to_linear_pred_mean": 0.9411615379272945,
+      "pair_sim_to_linear_pred_std": 0.025924964858829915,
+      "pair_suppression_mean": 1.2144372065284437,
+      "pair_suppression_std": 0.09415446547824188,
+      "triplet_suppression_mean": 1.339994460810083,
+      "triplet_suppression_std": 0.10708524583146559,
+      "triplet_sim_to_linear_mean": 0.8916100466251373,
+      "triplet_sim_to_linear_std": 0.04748687727414257,
+      "individual_svm_accuracy": 0.6107142857142858,
+      "mixture_vs_individual_svm": 0.7397435897435898,
+      "inter_mixture_svm_accuracy": 0.41000000000000003
+    },
+    {
+      "seed": 43,
+      "n_individual_odors": 28,
+      "n_2odor_mixtures": 378,
+      "n_3odor_mixtures": 50,
+      "pair_sim_to_components_mean": 0.8104526624083519,
+      "pair_sim_to_components_std": 0.05745229057224568,
+      "pair_sim_to_linear_pred_mean": 0.9442560880903214,
+      "pair_sim_to_linear_pred_std": 0.021635867921418018,
+      "pair_suppression_mean": 1.218198172748541,
+      "pair_suppression_std": 0.08722486976790178,
+      "triplet_suppression_mean": 1.3843349535001364,
+      "triplet_suppression_std": 0.07598627950362007,
+      "triplet_sim_to_linear_mean": 0.892654105424881,
+      "triplet_sim_to_linear_std": 0.039876185258202836,
+      "individual_svm_accuracy": 0.6035714285714286,
+      "mixture_vs_individual_svm": 0.7217948717948717,
+      "inter_mixture_svm_accuracy": 0.43
+    },
+    {
+      "seed": 44,
+      "n_individual_odors": 28,
+      "n_2odor_mixtures": 378,
+      "n_3odor_mixtures": 50,
+      "pair_sim_to_components_mean": 0.8068370344462218,
+      "pair_sim_to_components_std": 0.06129996413989217,
+      "pair_sim_to_linear_pred_mean": 0.941973391506407,
+      "pair_sim_to_linear_pred_std": 0.025670580456662675,
+      "pair_suppression_mean": 1.2223404730646856,
+      "pair_suppression_std": 0.08834805026285544,
+      "triplet_suppression_mean": 1.3692760042751007,
+      "triplet_suppression_std": 0.09656413989633252,
+      "triplet_sim_to_linear_mean": 0.8949560678005218,
+      "triplet_sim_to_linear_std": 0.03290237441053024,
+      "individual_svm_accuracy": 0.6535714285714286,
+      "mixture_vs_individual_svm": 0.75,
+      "inter_mixture_svm_accuracy": 0.42000000000000004
+    },
+    {
+      "seed": 45,
+      "n_individual_odors": 28,
+      "n_2odor_mixtures": 378,
+      "n_3odor_mixtures": 50,
+      "pair_sim_to_components_mean": 0.8077857540082679,
+      "pair_sim_to_components_std": 0.05815397722691689,
+      "pair_sim_to_linear_pred_mean": 0.9404132091809833,
+      "pair_sim_to_linear_pred_std": 0.026239330931820112,
+      "pair_suppression_mean": 1.1930880556256538,
+      "pair_suppression_std": 0.09973715012065669,
+      "triplet_suppression_mean": 1.3640138702347733,
+      "triplet_suppression_std": 0.10126095113336793,
+      "triplet_sim_to_linear_mean": 0.8947338163852692,
+      "triplet_sim_to_linear_std": 0.03539293132795585,
+      "individual_svm_accuracy": 0.625,
+      "mixture_vs_individual_svm": 0.7512820512820513,
+      "inter_mixture_svm_accuracy": 0.5549999999999999
+    },
+    {
+      "seed": 46,
+      "n_individual_odors": 28,
+      "n_2odor_mixtures": 378,
+      "n_3odor_mixtures": 50,
+      "pair_sim_to_components_mean": 0.8044389993267715,
+      "pair_sim_to_components_std": 0.05993881295390766,
+      "pair_sim_to_linear_pred_mean": 0.9404898009918354,
+      "pair_sim_to_linear_pred_std": 0.027010483376342802,
+      "pair_suppression_mean": 1.2526270340695929,
+      "pair_suppression_std": 0.1043012157774518,
+      "triplet_suppression_mean": 1.4217174708252092,
+      "triplet_suppression_std": 0.10193211889928583,
+      "triplet_sim_to_linear_mean": 0.8916736268997192,
+      "triplet_sim_to_linear_std": 0.03836718134542571,
+      "individual_svm_accuracy": 0.6321428571428571,
+      "mixture_vs_individual_svm": 0.7666666666666666,
+      "inter_mixture_svm_accuracy": 0.43500000000000005
+    }
+  ],
+  "aggregate": {
+    "pair_sim_to_components_mean": {
+      "mean": 0.8063577528668459,
+      "std": 0.002806893984143325
+    },
+    "pair_sim_to_linear_pred_mean": {
+      "mean": 0.9416588055393682,
+      "std": 0.001414934484584715
+    },
+    "pair_suppression_mean": {
+      "mean": 1.2201381884073834,
+      "std": 0.019122498209305245
+    },
+    "triplet_suppression_mean": {
+      "mean": 1.3758673519290605,
+      "std": 0.02699906994162438
+    },
+    "individual_svm_accuracy": {
+      "mean": 0.625,
+      "std": 0.017496355305594104
+    },
+    "mixture_vs_individual_svm": {
+      "mean": 0.745897435897436,
+      "std": 0.01480533336743802
+    },
+    "inter_mixture_svm_accuracy": {
+      "mean": 0.45,
+      "std": 0.05319774431308152
+    }
+  }
+}
