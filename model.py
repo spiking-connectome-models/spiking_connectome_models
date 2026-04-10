@@ -131,7 +131,7 @@ class SpikingConnectomeConstrainedModel(nn.Module):
             target_sparsity: Target KC sparsity (~10%)
             n_steps_al: Simulation steps for antennal lobe
             n_steps_kc: Simulation steps for KC layer
-            surrogate_method: Gradient method - 'soft', 'superspike', or 'slayer'
+            surrogate_method: Gradient method - 'soft'
         """
         super().__init__()
 
