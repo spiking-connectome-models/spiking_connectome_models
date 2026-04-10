@@ -14,7 +14,7 @@ Key features:
 
 Biological justification for non-spiking components:
 - OR responses: Receptor-mediated transduction produces graded receptor potentials
-- APL: Uses graded transmission in Drosophila (Papadopoulou et al. 2011, Neuron)
+- APL: Uses graded transmission in Drosophila
 
 References:
 - Lappalainen et al. 2024: Connectome-constrained learning
