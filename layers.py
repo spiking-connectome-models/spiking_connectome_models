@@ -66,58 +66,6 @@ LOG_TAU_APL_MAX = np.log(TAU_APL_MAX)
 LOG_STRENGTH_MIN = np.log(1e-12)  # 1 pA
 LOG_STRENGTH_MAX = np.log(1e-7)   # 100 nA
 
-
-class SurrogateSpike(torch.autograd.Function):
-    """
-    Surrogate gradient for spike detection.
-
-    Forward: hard threshold (v > v_th)
-    Backward: smooth sigmoid derivative for gradient flow
-
-    This is essential for training spiking neural networks with backprop.
-    Uses the SuperSpike surrogate from Zenke & Ganguli (2018).
-    """
-
-    @staticmethod
-    def forward(ctx, v_centered, scale=25.0):
-        """
-        Forward pass: hard threshold at 0.
-
-        Args:
-            v_centered: (v - v_th), voltage relative to threshold
-            scale: Steepness of surrogate gradient
-        """
-        ctx.save_for_backward(v_centered)
-        ctx.scale = scale
-        return (v_centered > 0).float()
-
-    @staticmethod
-    def backward(ctx, grad_output):
-        """
-        Backward pass: smooth sigmoid derivative.
-
-        d/dv sigmoid(scale * v) = scale * sigmoid * (1 - sigmoid)
-        For simplicity, use: 1 / (1 + |scale * v|)^2
-        """
-        v_centered, = ctx.saved_tensors
-        scale = ctx.scale
-
-        # SuperSpike surrogate gradient
-        grad = scale / (1 + scale * torch.abs(v_centered)) ** 2
-
-        return grad * grad_output, None
-
-
-def surrogate_spike(v_centered: torch.Tensor, scale: float = 100.0) -> torch.Tensor:
-    """Apply surrogate spike function.
-
-    Note: scale is in 1/Volts since v_centered is in Volts.
-    With scale=100, gradient at 10mV from threshold is ~25.
-    With scale=25 (old), gradient at 10mV was only ~6.
-    """
-    return SurrogateSpike.apply(v_centered, scale)
-
-
 def soft_spike(v_centered: torch.Tensor, temperature: float = 0.001) -> torch.Tensor:
     """
     Soft spike function for training.
@@ -130,97 +78,6 @@ def soft_spike(v_centered: torch.Tensor, temperature: float = 0.001) -> torch.Te
         temperature: Controls sharpness (in Volts, e.g., 1mV = 0.001)
     """
     return torch.sigmoid(v_centered / temperature)
-
-
-class SLAYERSpike(torch.autograd.Function):
-    """
-    SLAYER (Spike Layer Error Reassignment in Time) surrogate gradient.
-
-    From Shrestha & Orchard (2018): "SLAYER: Spike Layer Error Reassignment in Time"
-
-    Key insight: Use a probability density function (PDF) that models the
-    probability of a spike given the membrane potential. This gives gradients
-    that are:
-    - Zero when membrane is far below threshold (changing it won't help)
-    - Maximum just below threshold (high impact zone)
-    - Decay above threshold (spike already happened)
-
-    The PDF is: ρ(u) = exp(-|u|/τ_pdf) / (2τ_pdf)
-
-    This creates a "learning window" around the threshold that focuses
-    gradient information where it matters most.
-
-    Compared to SuperSpike (1/(1+|u|)²):
-    - SLAYER has sharper peak at threshold
-    - SLAYER decays exponentially (SuperSpike decays polynomially)
-    - SLAYER better handles temporal credit assignment
-
-    Parameters:
-        tau_pdf: Width of the learning window (in Volts)
-                 Typical: 5-20mV (0.005-0.020 V)
-        alpha: Peak scaling factor
-    """
-
-    @staticmethod
-    def forward(ctx, v_centered: torch.Tensor, tau_pdf: float = 0.010, alpha: float = 1.0):
-        """
-        Forward pass: hard threshold at 0.
-
-        Args:
-            v_centered: (v - v_th), voltage relative to threshold (V)
-            tau_pdf: Width of PDF (learning window) in Volts
-            alpha: Peak gradient scaling
-        """
-        ctx.save_for_backward(v_centered)
-        ctx.tau_pdf = tau_pdf
-        ctx.alpha = alpha
-        return (v_centered > 0).float()
-
-    @staticmethod
-    def backward(ctx, grad_output: torch.Tensor):
-        """
-        Backward pass: exponential PDF surrogate gradient.
-
-        ∂s/∂u ≈ ρ(u) = (α / 2τ) * exp(-|u| / τ)
-
-        This creates symmetric exponential decay from threshold.
-        """
-        v_centered, = ctx.saved_tensors
-        tau_pdf = ctx.tau_pdf
-        alpha = ctx.alpha
-
-        # Exponential PDF: peaks at u=0, decays symmetrically
-        # ρ(u) = (1 / 2τ) * exp(-|u| / τ)
-        grad = (alpha / (2 * tau_pdf)) * torch.exp(-torch.abs(v_centered) / tau_pdf)
-
-        return grad * grad_output, None, None
-
-
-def slayer_spike(v_centered: torch.Tensor, tau_pdf: float = 0.010, alpha: float = 1.0) -> torch.Tensor:
-    """
-    Apply SLAYER surrogate spike function.
-
-    SLAYER uses an exponential PDF surrogate that creates a focused learning
-    window around the threshold. This is particularly effective for:
-    - Temporal coding (precise spike timing matters)
-    - Multi-layer SNNs (better temporal credit assignment)
-    - Low firing rate regimes
-
-    Args:
-        v_centered: (v - v_th), voltage relative to threshold (V)
-        tau_pdf: Width of learning window (default 10mV)
-        alpha: Peak gradient scaling
-
-    Returns:
-        Binary spikes (hard threshold in forward, SLAYER gradient in backward)
-
-    Example:
-        At v_centered = 0 (threshold): gradient = alpha / (2 * tau_pdf) ≈ 50
-        At v_centered = tau_pdf: gradient = 50 * exp(-1) ≈ 18
-        At v_centered = 3*tau_pdf: gradient = 50 * exp(-3) ≈ 2.5
-    """
-    return SLAYERSpike.apply(v_centered, tau_pdf, alpha)
-
 
 
 @dataclass
@@ -280,8 +137,6 @@ class LIFNeuron(nn.Module):
 
     Surrogate gradient methods (for training):
         - 'soft': Soft sigmoid (continuous relaxation)
-        - 'superspike': SuperSpike 1/(1+|u|)² (Zenke & Ganguli 2018)
-        - 'slayer': Exponential PDF (Shrestha & Orchard 2018)
     """
 
     def __init__(
@@ -298,7 +153,7 @@ class LIFNeuron(nn.Module):
             params: SpikingParams (uses defaults if None)
             learnable_tau: If True, time constant is learned per neuron type
             learnable_threshold: If True, threshold is learned per neuron
-            surrogate_method: 'soft', 'superspike', or 'slayer'
+            surrogate_method: 'soft'
         """
         super().__init__()
 
@@ -388,12 +243,6 @@ class LIFNeuron(nn.Module):
             if self.surrogate_method == 'soft':
                 # Soft sigmoid (continuous relaxation)
                 spikes = soft_spike(v_centered, temperature=1e-3)
-            elif self.surrogate_method == 'superspike':
-                # SuperSpike: hard forward, smooth backward
-                spikes = surrogate_spike(v_centered, scale=100.0)
-            elif self.surrogate_method == 'slayer':
-                # SLAYER: exponential PDF surrogate
-                spikes = slayer_spike(v_centered, tau_pdf=0.010, alpha=1.0)
             else:
                 raise ValueError(f"Unknown surrogate method: {self.surrogate_method}")
         else:
@@ -465,7 +314,7 @@ class TwoCompartmentKC(nn.Module):
             params: SpikingParams (uses defaults if None)
             learnable_threshold: If True, KC thresholds are learnable
             learnable_g_soma: If True, soma conductance is learnable (RECOMMENDED)
-            surrogate_method: 'soft', 'superspike', or 'slayer'
+            surrogate_method: 'soft'
         """
         super().__init__()
 
@@ -617,10 +466,6 @@ class TwoCompartmentKC(nn.Module):
         if self.training:
             if self.surrogate_method == 'soft':
                 spikes = soft_spike(v_centered, temperature=1e-3)
-            elif self.surrogate_method == 'superspike':
-                spikes = surrogate_spike(v_centered, scale=100.0)
-            elif self.surrogate_method == 'slayer':
-                spikes = slayer_spike(v_centered, tau_pdf=0.010, alpha=1.0)
             else:
                 raise ValueError(f"Unknown surrogate method: {self.surrogate_method}")
         else:
@@ -1284,7 +1129,7 @@ class SpikingAPLInhibition(nn.Module):
         self.apl_gain = nn.Parameter(torch.tensor(1.0))
 
         # APL time constant (graded dynamics)
-        self.log_tau_apl = nn.Parameter(torch.log(torch.tensor(15e-3)))  # 15 ms (bio: ~33ms, Ray et al. 2020)
+        self.log_tau_apl = nn.Parameter(torch.log(torch.tensor(15e-3)))  # 15 ms
 
     @property
     def tau_apl(self) -> torch.Tensor:
@@ -1395,7 +1240,7 @@ class SpikingKenyonCellLayer(nn.Module):
             params: SpikingParams
             target_sparsity: Target fraction of active KCs
             use_two_compartment: If True, use 2-compartment KC model
-            surrogate_method: 'soft', 'superspike', or 'slayer'
+            surrogate_method: 'soft'
             kc_to_kc_aa: (n_kc, n_kc) optional axon→axon KC-KC synapse counts
             kc_to_apl_da: (n_kc, n_apl) optional KC dendrite → APL axon synapse counts
                           Enables graded dendritic contribution to APL (requires 2-compartment)
