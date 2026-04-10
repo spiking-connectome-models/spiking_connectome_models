@@ -20,7 +20,6 @@ References:
 - Lappalainen et al. 2024: Connectome-constrained learning
 - Winding et al. 2023: Larval Drosophila connectome
 - Kreher et al. 2008: Larval ORN responses
-- Papadopoulou et al. 2011: APL graded transmission
 """
 
 import torch
