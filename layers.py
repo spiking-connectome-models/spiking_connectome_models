@@ -20,7 +20,6 @@ Key parameters:
 Biological justification for non-spiking components:
 - OR responses: Receptor-mediated transduction produces graded signals
 - APL: Invertebrate interneurons often use graded potentials
-  (Papadopoulou et al. 2011, Neuron: APL uses graded transmission)
 """
 
 import torch
@@ -37,7 +36,7 @@ _EPS = 1e-8
 # BIOLOGICAL BOUNDS FOR LEARNED PARAMETERS
 # =============================================================================
 # These bounds constrain learned parameters to biologically realistic ranges.
-# References: Gerstner & Kistler 2002, Turner et al. 2008
+# References: Kistler & Gerstner 2002
 
 # Voltage threshold (V): -55 to -30 mV
 # Wide range allows network to learn appropriate thresholds for decorrelation
@@ -57,7 +56,7 @@ G_SOMA_MAX = 100e-9 # 100 nS
 LOG_G_SOMA_MIN = np.log(G_SOMA_MIN)  # ~-20.7
 LOG_G_SOMA_MAX = np.log(G_SOMA_MAX)  # ~-16.1
 
-# APL time constant (s): 10-50 ms (GGN/APL tau_m ~33ms from Ray et al. 2020)
+# APL time constant (s): 10-50 ms
 TAU_APL_MIN = 10e-3
 TAU_APL_MAX = 50e-3
 LOG_TAU_APL_MIN = np.log(TAU_APL_MIN)
